@@ -11,7 +11,14 @@
   "time_limit_seconds": 120,
   "room": "cathedral",
   "room_size": 50,
-  "ambience": "cathedral",
+  "ambience": "evt_amb_cathedral.ogg",
+  "ambience_zones": [
+    "evt_amb_organ.ogg",
+    "evt_amb_dark_choir.ogg",
+    "evt_amb_haunted_house.ogg",
+    "evt_amb_graveyard.ogg",
+    "evt_amb_halloween_strings.ogg"
+  ],
   "item": {
     "theme": "pumpkin",
     "name": "pumpkin",
@@ -23,8 +30,26 @@
     "max_distance": 0,
     "volume": 0.85,
     "beacon_file": "",
+    "beacon_set": [],
     "pickup_file": "",
-    "all_found_bonus": 0
+    "all_found_bonus": 0,
+    "time_bonus": 0
+  },
+  "decoys": {
+    "real_first_level": 3,
+    "real_per_level": 1,
+    "real_most": 10,
+    "fakes_first_level": 2,
+    "fakes_per_level": 1,
+    "fakes_most": 15,
+    "distortion": 0.7,
+    "fake_closest": 8,
+    "points_per_level": 10,
+    "exit_sound": "exit_morse",
+    "announce_levels": true
+  },
+  "survive": {
+    "points_per_second": 1
   },
   "time_credits": {
     "enabled": false,
@@ -70,6 +95,8 @@
   },
   "messages": {
     "start": "Pumpkin Hunt. Welcome to the cathedral. Find as many pumpkins as you can in two minutes.",
-    "end": ""
+    "end": "",
+    "start_sound": "",
+    "end_sound": ""
   }
 }

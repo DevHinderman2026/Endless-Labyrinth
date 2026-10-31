@@ -1,0 +1,109 @@
+{
+  "format": 1,
+  "id": "call-of-fate-2026",
+  "enabled": true,
+  "protected": true,
+  "name": "Call of Fate",
+  "description": "Deep in a vast cathedral, the true bells of fate ring among false ones. Find the real bells, then walk into the light. Touch a false bell, or walk through the exit of the dead, and your fate is sealed. There is no clock: how far can you go?",
+  "start": "2026-11-26T13:00:00Z",
+  "end": "2026-12-03T13:00:00Z",
+  "mission": "decoys",
+  "time_limit_seconds": 0,
+  "room": "cathedral",
+  "room_size": 55,
+  "ambience": "evt_amb_cathedral.ogg",
+  "ambience_zones": [],
+  "item": {
+    "theme": "bell",
+    "name": "bell",
+    "plural": "bells",
+    "points": 5,
+    "at_once": 1,
+    "total": 0,
+    "min_distance": 10,
+    "max_distance": 0,
+    "volume": 0.85,
+    "beacon_file": "",
+    "beacon_set": [
+      "evt_church_bell.ogg",
+      "evt_bell_real_1.ogg",
+      "evt_bell_real_2.ogg",
+      "evt_bell_real_3.ogg",
+      "evt_bell_real_4.ogg",
+      "evt_bell_real_5.ogg",
+      "evt_bell_real_6.ogg",
+      "evt_bell_real_7.ogg"
+    ],
+    "pickup_file": "",
+    "all_found_bonus": 0,
+    "time_bonus": 0
+  },
+  "decoys": {
+    "real_first_level": 3,
+    "real_per_level": 1,
+    "real_most": 10,
+    "fakes_first_level": 2,
+    "fakes_per_level": 1,
+    "fakes_most": 15,
+    "distortion": 0.7,
+    "fake_closest": 8,
+    "points_per_level": 25,
+    "exit_sound": "evt_exit_light_choir.ogg",
+    "exit_shimmer": true,
+    "dark_exit_chance": 0.4,
+    "dark_exit_first_level": 2,
+    "dark_exit_sound": "evt_exit_dark_choir.ogg",
+    "announce_levels": true
+  },
+  "survive": {
+    "points_per_second": 1
+  },
+  "time_credits": {
+    "enabled": false,
+    "values": [
+      10,
+      15,
+      20
+    ],
+    "weights": [
+      55,
+      30,
+      15
+    ],
+    "every_seconds": 30,
+    "first_after_seconds": 20,
+    "lasts_seconds": 0,
+    "min_distance": 12,
+    "max_at_once": 1
+  },
+  "clock": {
+    "announce_every_seconds": 0,
+    "countdown_seconds": 0
+  },
+  "hazards": {
+    "count": 0,
+    "name": "beast",
+    "sound": "guardian",
+    "behavior": "guard",
+    "home": "corner",
+    "speed": 1.5,
+    "react_distance": 14,
+    "on_touch": "end_run",
+    "penalty": 15,
+    "can_be_shot": false,
+    "hits_to_down": 3,
+    "points_for_down": 10,
+    "respawn_seconds": 0,
+    "volume": 1.0
+  },
+  "weapon": {
+    "enabled": false,
+    "start_shots": 8
+  },
+  "messages": {
+    "start": "Call of Fate. Somewhere in this cathedral the true bells of fate are ringing among false ones. Find the real bells, then follow the choir and the shimmering bell into the light. Beware: on some levels the exit of the dead opens too, with a darker choir. Touch a false bell, or walk into the dark, and your fate is sealed.",
+    "end": "",
+    "start_sound": "evt_creaky_door.ogg",
+    "end_sound": "evt_evil_laugh.ogg"
+  }
+}
