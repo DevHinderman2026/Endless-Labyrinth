@@ -44,8 +44,16 @@
     "fakes_most": 15,
     "distortion": 0.7,
     "fake_closest": 8,
+    "rings_first_level": 1,
+    "rings_per_level": 0,
+    "rings_most": 20,
+    "fakes_match_real": false,
     "points_per_level": 10,
     "exit_sound": "exit_morse",
+    "exit_shimmer": false,
+    "dark_exit_chance": 0.0,
+    "dark_exit_first_level": 2,
+    "dark_exit_sound": "",
     "announce_levels": true
   },
   "survive": {
@@ -98,5 +106,6 @@
     "end": "",
     "start_sound": "",
     "end_sound": ""
-  }
+  },
+  "signature": "f6f12bcec59dae931c4fb929742a739a128b043abd6fde05fae707fc706f57686e75f7cc77b41b86f46d26ce038a2b1c8a0e292ebf9a6c1e02a5ca2b1f7d660b"
 }

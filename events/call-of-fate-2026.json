@@ -47,17 +47,17 @@
     "fakes_most": 15,
     "distortion": 0.7,
     "fake_closest": 8,
+    "rings_first_level": 1,
+    "rings_per_level": 1,
+    "rings_most": 20,
+    "fakes_match_real": true,
     "points_per_level": 25,
     "exit_sound": "evt_exit_light_choir.ogg",
     "exit_shimmer": true,
     "dark_exit_chance": 0.4,
     "dark_exit_first_level": 2,
     "dark_exit_sound": "evt_exit_dark_choir.ogg",
-    "announce_levels": true,
-    "rings_first_level": 1,
-    "rings_per_level": 1,
-    "rings_most": 20,
-    "fakes_match_real": true
+    "announce_levels": true
   },
   "survive": {
     "points_per_second": 1
@@ -109,5 +109,6 @@
     "end": "",
     "start_sound": "evt_creaky_door.ogg",
     "end_sound": "evt_evil_laugh.ogg"
-  }
+  },
+  "signature": "f88d4bdfe2a98d0d130541be0d20f3b408db55113ff47b17446f2e1bdf52abb8d88b7bbc08fb63cc6062566fb68554951fa716d8310236e340df4f5c6806b70d"
 }
