@@ -23,3 +23,7 @@ players/*
 Dev Builds/highscores.json
 Dev Builds/highscores.json.imported
 Dev Builds/settings.json
+
+# The built program (Developer Tools/Build Game.bat makes it). Shared as a zip,
+# never committed.
+Build/
