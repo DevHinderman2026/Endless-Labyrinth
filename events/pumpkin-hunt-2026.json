@@ -1,6 +1,8 @@
 {
   "format": 1,
   "id": "pumpkin-hunt-2026",
+  "enabled": true,
+  "protected": true,
   "name": "Pumpkin Hunt",
   "description": "Happy Halloween! Pumpkins are hidden all over a huge, echoing cathedral. Find as many as you can in two minutes; every pumpkin adds to your Event High Score.",
   "start": "2026-10-31T12:00:00Z",
