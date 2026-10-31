@@ -4,7 +4,7 @@
   "enabled": true,
   "protected": true,
   "name": "Call of Fate",
-  "description": "Deep in a vast cathedral, the true bells of fate ring among false ones. Find the real bells, then walk into the light. Touch a false bell, or walk through the exit of the dead, and your fate is sealed. There is no clock: how far can you go?",
+  "description": "Deep in a vast cathedral, the true bell of fate rings among false ones. Ring it, and it moves and changes its note: every level asks for one more ring. Then walk into the light. Touch a false bell, or walk through the exit of the dead, and your fate is sealed. There is no clock: how far can you go?",
   "start": "2026-11-26T13:00:00Z",
   "end": "2026-12-03T13:00:00Z",
   "mission": "decoys",
@@ -39,9 +39,9 @@
     "time_bonus": 0
   },
   "decoys": {
-    "real_first_level": 3,
-    "real_per_level": 1,
-    "real_most": 10,
+    "real_first_level": 1,
+    "real_per_level": 0,
+    "real_most": 1,
     "fakes_first_level": 2,
     "fakes_per_level": 1,
     "fakes_most": 15,
@@ -53,7 +53,11 @@
     "dark_exit_chance": 0.4,
     "dark_exit_first_level": 2,
     "dark_exit_sound": "evt_exit_dark_choir.ogg",
-    "announce_levels": true
+    "announce_levels": true,
+    "rings_first_level": 1,
+    "rings_per_level": 1,
+    "rings_most": 20,
+    "fakes_match_real": true
   },
   "survive": {
     "points_per_second": 1
@@ -101,7 +105,7 @@
     "start_shots": 8
   },
   "messages": {
-    "start": "Call of Fate. Somewhere in this cathedral the true bells of fate are ringing among false ones. Find the real bells, then follow the choir and the shimmering bell into the light. Beware: on some levels the exit of the dead opens too, with a darker choir. Touch a false bell, or walk into the dark, and your fate is sealed.",
+    "start": "Call of Fate. Somewhere in this cathedral the true bell of fate is ringing among false ones. Ring it, and it falls silent, then calls again from somewhere new, with a new note. Each level asks for one more ring. Then follow the choir and the shimmering bell into the light. Beware: on some levels the exit of the dead opens too, with a darker choir. Touch a false bell, or walk into the dark, and your fate is sealed.",
     "end": "",
     "start_sound": "evt_creaky_door.ogg",
     "end_sound": "evt_evil_laugh.ogg"
