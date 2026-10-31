@@ -4,7 +4,7 @@
   "name": "Pumpkin Hunt",
   "description": "Happy Halloween! Pumpkins are hidden all over a huge, echoing cathedral. Find as many as you can in two minutes; every pumpkin adds to your Event High Score.",
   "start": "2026-10-31T12:00:00Z",
-  "end": "2026-11-07T13:00:00Z",
+  "end": "2026-11-21T13:00:00Z",
   "mission": "collect",
   "time_limit_seconds": 120,
   "room": "cathedral",
