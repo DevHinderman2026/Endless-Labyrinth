@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "id": "pumpkin-hunt-2026",
+  "name": "Pumpkin Hunt",
+  "description": "Happy Halloween! Pumpkins are hidden all over a huge, echoing cathedral. Find as many as you can in two minutes; every pumpkin adds to your Event High Score.",
+  "start": "2026-10-31T12:00:00Z",
+  "end": "2026-11-07T13:00:00Z",
+  "mission": "collect",
+  "time_limit_seconds": 120,
+  "room": "cathedral",
+  "room_size": 50,
+  "ambience": "cathedral",
+  "item": {
+    "theme": "pumpkin",
+    "name": "pumpkin",
+    "plural": "pumpkins",
+    "points": 1,
+    "at_once": 1,
+    "total": 0,
+    "min_distance": 10,
+    "max_distance": 0,
+    "volume": 0.85,
+    "beacon_file": "",
+    "pickup_file": "",
+    "all_found_bonus": 0
+  },
+  "time_credits": {
+    "enabled": false,
+    "values": [
+      10,
+      15,
+      20
+    ],
+    "weights": [
+      55,
+      30,
+      15
+    ],
+    "every_seconds": 30,
+    "first_after_seconds": 20,
+    "lasts_seconds": 0,
+    "min_distance": 12,
+    "max_at_once": 1
+  },
+  "clock": {
+    "announce_every_seconds": 60,
+    "countdown_seconds": 15
+  },
+  "hazards": {
+    "count": 0,
+    "name": "beast",
+    "sound": "guardian",
+    "behavior": "guard",
+    "home": "corner",
+    "speed": 1.5,
+    "react_distance": 14,
+    "on_touch": "end_run",
+    "penalty": 15,
+    "can_be_shot": false,
+    "hits_to_down": 3,
+    "points_for_down": 10,
+    "respawn_seconds": 0,
+    "volume": 1.0
+  },
+  "weapon": {
+    "enabled": false,
+    "start_shots": 8
+  },
+  "messages": {
+    "start": "Pumpkin Hunt. Welcome to the cathedral. Find as many pumpkins as you can in two minutes.",
+    "end": ""
+  }
+}

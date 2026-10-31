@@ -1,0 +1,16 @@
+# Endless Labyrinth - what Git never uploads to GitHub.
+
+# The developer's private tools, including the Event Maker.
+Developer Tools/
+
+# Old versions of the game, and files waiting to be deleted (in any folder).
+Dev Builds/Backups/
+_to_delete/
+
+# Python's own scratch files.
+__pycache__/
+*.pyc
+
+# Half-finished downloads and saves, and save files the game refused.
+*.part
+*.rejected-*
