@@ -27,3 +27,6 @@ Dev Builds/settings.json
 # The built program (Developer Tools/Build Game.bat makes it). Shared as a zip,
 # never committed.
 Build/
+
+# A backup of the developer's event signing key: never uploaded, wherever it is saved.
+*.elkey
