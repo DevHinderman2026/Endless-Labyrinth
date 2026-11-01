@@ -33,3 +33,10 @@ Build/
 
 # What a player's game notes about sounds it downloaded (made on players' computers only).
 Dev Builds/sounds/sounds_fetched.json
+
+# The game's code, design notes and libraries stay on the developer's computer.
+# GitHub holds only what players' games read from it: the sounds, the events and the
+# public event key.
+Dev Builds/*
+!Dev Builds/sounds/
+!Dev Builds/event_key.pub
