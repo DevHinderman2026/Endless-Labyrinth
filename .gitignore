@@ -40,3 +40,8 @@ Dev Builds/sounds/sounds_fetched.json
 Dev Builds/*
 !Dev Builds/sounds/
 !Dev Builds/event_key.pub
+
+# The untouched downloads the game's sounds were edited from. They stay on the
+# developer's computer: the game never uses them, and Pixabay's license does not
+# allow handing them out on their own.
+Dev Builds/sounds/originals/
