@@ -30,7 +30,7 @@ Nothing needs to be installed. The game runs on Windows.
 The game plays offline. When it starts with an internet connection, it also:
 
 - checks this repository for events, so new events appear in your Events menu without a new download;
-- checks its sounds, and downloads again any that are missing, damaged or have been updated, so a sounds folder you delete by accident comes back by itself.
+- checks its sounds, and puts back any that are missing or damaged from the game's latest release, so a sounds folder you delete by accident comes back by itself.
 
 ## Your saves
 
@@ -42,9 +42,9 @@ Endless Labyrinth is designed and directed by Russell Hinderman (DevHinderman202
 
 ## What's in this repository
 
-- `Dev Builds/sounds`: every sound the game uses, with their credits (`CREDITS.md`). The game downloads from here any sound that is missing, damaged or updated.
+- `Dev Builds/sounds/CREDITS.md`: the credits for every recorded sound. The sounds themselves come only inside the game download.
 - `Dev Builds/event_key.pub`: the public half of the developer's event key, which the game uses to check that an event is genuine.
 - `events`: the event files the game reads. Every event is signed, and the game plays only events signed by the developer.
 - `LICENSE.md`: how the game may be used. All rights reserved; the sounds are used under Pixabay's license.
 
-The game itself is downloaded from [Releases](https://github.com/DevHinderman2026/Endless-Labyrinth/releases); this repository is where its events and sound updates come from.
+The game itself is downloaded from [Releases](https://github.com/DevHinderman2026/Endless-Labyrinth/releases); this repository is where its events come from.
