@@ -42,7 +42,8 @@ Endless Labyrinth is designed and directed by Russell Hinderman (DevHinderman202
 
 ## What's in this repository
 
-- `Dev Builds`: the game's source code and sounds.
+- `Dev Builds/sounds`: every sound the game uses, with their credits (`CREDITS.md`). The game downloads from here any sound that is missing, damaged or updated.
+- `Dev Builds/event_key.pub`: the public half of the developer's event key, which the game uses to check that an event is genuine.
 - `events`: the event files the game reads. Every event is signed, and the game plays only events signed by the developer.
 - `players`: where each player's saves go (empty here; see its README).
 
