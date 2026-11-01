@@ -16,10 +16,9 @@ __pycache__/
 *.rejected-*
 
 # Player save data. Scores and settings are saved on each player's own computer
-# only, so none of them are ever uploaded. (players/README.md is kept, so the
-# folder itself is still part of the game.)
-players/*
-!players/README.md
+# only, so none of them are ever uploaded. The game makes the players folder itself,
+# and the release zip includes it with its README.
+players/
 Dev Builds/highscores.json
 Dev Builds/highscores.json.imported
 Dev Builds/settings.json
