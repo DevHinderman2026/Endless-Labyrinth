@@ -30,3 +30,6 @@ Build/
 
 # A backup of the developer's event signing key: never uploaded, wherever it is saved.
 *.elkey
+
+# What a player's game notes about sounds it downloaded (made on players' computers only).
+Dev Builds/sounds/sounds_fetched.json
