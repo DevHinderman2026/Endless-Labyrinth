@@ -1,18 +1,21 @@
 {
   "format": 1,
-  "id": "the-turkey-hunt-2026",
-  "enabled": true,
+  "id": "turkey-hunt-2026",
+  "enabled": false,
   "protected": false,
-  "name": "The turkey Hunt",
-  "description": "Shoot as many turkies as you can for 2 minutes. Find the amo along the way.",
+  "name": "Turkey Hunt",
+  "description": "Hunt down turrkies. You have 2 minutes. No ammo to colect. If a turkey hits you, you'll lose quite a bit of time. There are credits that are rare that increase your time. How many turrkies can you defeat for thanksgiving?",
   "start": "2026-11-03T13:00:00Z",
   "end": "2026-11-10T13:00:00Z",
   "mission": "hunt",
   "time_limit_seconds": 120,
-  "room": "hall",
+  "room": "lab",
   "room_size": 50,
-  "ambience": "night",
-  "ambience_zones": [],
+  "ambience": "battle",
+  "ambience_zones": [
+    "evt_amb_crickets.ogg",
+    "evt_amb_summer.ogg"
+  ],
   "ambience_volume": 1.0,
   "zones_volume": 1.0,
   "item": {
@@ -20,7 +23,7 @@
     "name": "pumpkin",
     "plural": "pumpkins",
     "points": 1,
-    "at_once": 1,
+    "at_once": 0,
     "total": 0,
     "total_max": 0,
     "hide_left": false,
@@ -91,9 +94,9 @@
     "stops": true
   },
   "hunt": {
-    "time_bonus": 0,
-    "ammo_every_seconds": 30,
-    "ammo_amount": 15
+    "time_bonus": 4,
+    "ammo_every_seconds": 0,
+    "ammo_amount": 5
   },
   "seek": {
     "pings": 0,
@@ -271,21 +274,21 @@
     "exit_distance": 30
   },
   "time_credits": {
-    "enabled": false,
+    "enabled": true,
     "values": [
-      10,
-      15,
-      20
+      60,
+      80,
+      120
     ],
     "weights": [
       55,
       30,
       15
     ],
-    "every_seconds": 30,
-    "first_after_seconds": 20,
+    "every_seconds": 70,
+    "first_after_seconds": 80,
     "lasts_seconds": 0,
-    "min_distance": 12,
+    "min_distance": 24,
     "max_at_once": 1
   },
   "clock": {
@@ -295,35 +298,35 @@
   },
   "hazards": {
     "count": 10,
-    "name": "turkey",
+    "name": "Turkey",
     "sound": "evt_turkey_gobble.ogg",
-    "behavior": "hunt",
+    "behavior": "wander",
     "home": "corner",
-    "speed": 1.5,
-    "react_distance": 14,
-    "on_touch": "end_run",
-    "penalty": 15,
+    "speed": 1.0,
+    "react_distance": 6,
+    "on_touch": "lose_time",
+    "penalty": 60,
     "can_be_shot": true,
     "hits_to_down": 1,
     "points_for_down": 10,
-    "respawn_seconds": 0,
+    "respawn_seconds": 1,
     "volume": 1.0,
     "lives": 1
   },
   "weapon": {
     "enabled": true,
-    "start_shots": 15
+    "start_shots": 999
   },
   "messages": {
     "start": "",
     "end": "",
-    "start_sound": "evt_ding.ogg",
-    "end_sound": "evt_angry_growl.ogg"
+    "start_sound": "",
+    "end_sound": ""
   },
   "medals": {
     "bronze": 0,
     "silver": 0,
     "gold": 0
   },
-  "signature": "17b65dc5f9b93a637d28a5444677caa5b88a86da80ee5f0c8cd2622403d57253499654f01e347f27965dd448269e7c13fbdb0219130b60791035cb6dff150b0a"
+  "signature": "2903cb5e9a21f71a1b66e87236e74dc1fb999e3500e039f0cd38e6bc1c3f79a00541cc024a936394b8c76975b89beb873330260d266b701e73eb15ba0bb3290d"
 }
