@@ -1,0 +1,329 @@
+{
+  "format": 1,
+  "id": "the-turkey-hunt-2026",
+  "enabled": true,
+  "protected": false,
+  "name": "The turkey Hunt",
+  "description": "Shoot as many turkies as you can for 2 minutes. Find the amo along the way.",
+  "start": "2026-11-03T13:00:00Z",
+  "end": "2026-11-10T13:00:00Z",
+  "mission": "hunt",
+  "time_limit_seconds": 120,
+  "room": "hall",
+  "room_size": 50,
+  "ambience": "night",
+  "ambience_zones": [],
+  "ambience_volume": 1.0,
+  "zones_volume": 1.0,
+  "item": {
+    "theme": "pumpkin",
+    "name": "pumpkin",
+    "plural": "pumpkins",
+    "points": 1,
+    "at_once": 1,
+    "total": 0,
+    "total_max": 0,
+    "hide_left": false,
+    "min_distance": 10,
+    "max_distance": 0,
+    "direction": "anywhere",
+    "volume": 1.0,
+    "beacon_file": "",
+    "beacon_set": [],
+    "pickup_file": "",
+    "all_found_bonus": 0,
+    "time_bonus": 0,
+    "bonus_chance": 0.0,
+    "bonus_points": 10,
+    "bonus_theme": "star",
+    "bonus_file": ""
+  },
+  "decoys": {
+    "real_first_level": 3,
+    "real_per_level": 1,
+    "real_most": 10,
+    "fakes_first_level": 2,
+    "fakes_per_level": 1,
+    "fakes_most": 15,
+    "distortion": 0.7,
+    "fake_closest": 8,
+    "rings_first_level": 1,
+    "rings_per_level": 0,
+    "rings_most": 20,
+    "rings_random": false,
+    "fakes_match_real": false,
+    "ring_every_seconds": 0.0,
+    "points_per_level": 10,
+    "exit_sound": "exit_morse",
+    "exit_shimmer": false,
+    "dark_exit_chance": 0.0,
+    "dark_exit_first_level": 2,
+    "dark_exit_sound": "",
+    "dark_exit_volume": 1.0,
+    "announce_levels": true
+  },
+  "survive": {
+    "points_per_second": 1
+  },
+  "deliver": {
+    "dropoff": "center",
+    "dropoff_moves": false,
+    "dropoff_sound": "",
+    "delivered_sound": "",
+    "carry_most": 1,
+    "drop_on_touch": true
+  },
+  "catch": {
+    "speed": 2.0,
+    "flee_distance": 18,
+    "wanders": true
+  },
+  "relay": {
+    "seconds_first": 20,
+    "seconds_less_each": 1.0,
+    "seconds_least": 6
+  },
+  "follow": {
+    "speed": 1.2,
+    "near_distance": 15,
+    "lost_seconds": 8,
+    "points_per_second": 2,
+    "stops": true
+  },
+  "hunt": {
+    "time_bonus": 0,
+    "ammo_every_seconds": 30,
+    "ammo_amount": 15
+  },
+  "seek": {
+    "pings": 0,
+    "ping_wait": 3.0,
+    "ping_sound": "",
+    "auto_ping_seconds": 0
+  },
+  "order": {
+    "first_round": 3,
+    "per_round": 1,
+    "most": 8,
+    "direction": "low_first",
+    "note_gap": 2,
+    "wrong": "end_run",
+    "penalty": 10,
+    "points_per_round": 10,
+    "wrong_sound": ""
+  },
+  "memory": {
+    "pads": 4,
+    "pad_distance": 18,
+    "first_length": 2,
+    "longest": 12,
+    "note_gap": 0.8,
+    "pads_call": true,
+    "wrong": "end_run",
+    "penalty": 10,
+    "points_per_round": 10
+  },
+  "pairs": {
+    "first_pairs": 3,
+    "more_each_round": 1,
+    "most": 8,
+    "note_gap": 3,
+    "points_per_pair": 5,
+    "points_per_round": 10
+  },
+  "detector": {
+    "slowest": 1.5,
+    "fastest": 0.12,
+    "range": 60,
+    "directional": false,
+    "beep_sound": ""
+  },
+  "dodge": {
+    "every_seconds": 4.0,
+    "faster_each": 0.1,
+    "least_seconds": 1.5,
+    "warning_seconds": 2.0,
+    "aim_distance": 9,
+    "blast_distance": 6,
+    "lives": 3,
+    "points_per_dodge": 2,
+    "falling_sound": "",
+    "landing_sound": ""
+  },
+  "defend": {
+    "treasure_lives": 3,
+    "respawn_seconds": 3,
+    "faster_each": 0.05,
+    "treasure_sound": ""
+  },
+  "hold": {
+    "radius": 9,
+    "move_seconds": 12,
+    "points_per_second": 2,
+    "warn_before_move": true
+  },
+  "sneak": {
+    "hearing": 15,
+    "noise_per_step": 0.25,
+    "quiet_per_second": 0.1,
+    "awake_seconds": 10,
+    "snore_sound": ""
+  },
+  "bomb": {
+    "fuse_seconds": 25,
+    "shorter_each": 1.0,
+    "shortest": 8,
+    "fuse_starts": "appears",
+    "lives": 3,
+    "safe_place": "center",
+    "safe_sound": "",
+    "bang_sound": ""
+  },
+  "rescue": {
+    "follow_speed": 3.0,
+    "lose_distance": 24,
+    "home": "center",
+    "home_sound": ""
+  },
+  "reflex": {
+    "directions": "four",
+    "window_seconds": 1.5,
+    "faster_each": 0.03,
+    "shortest": 0.5,
+    "gap_seconds": 1.0,
+    "lives": 3,
+    "cue_sound": ""
+  },
+  "chairs": {
+    "music_sound": "",
+    "music_shortest": 4,
+    "music_longest": 12,
+    "chairs": 3,
+    "seconds_first": 6.0,
+    "less_each": 0.3,
+    "shortest": 2.5,
+    "chair_distance": 12,
+    "points_per_round": 5
+  },
+  "fishing": {
+    "cast_distance": 30,
+    "fish_speed": 0.6,
+    "cast_wait": 1.5,
+    "cast_sound": "",
+    "aim": 0.35
+  },
+  "steps": {
+    "start": 60,
+    "per_item": 10,
+    "warn_at": 5
+  },
+  "keys": {
+    "door_sound": "exit_morse",
+    "key_sound": "",
+    "door_distance": 24,
+    "points_per_room": 10,
+    "more_creatures_each_room": 0
+  },
+  "whack": {
+    "every_seconds": 1.5,
+    "up_seconds": 3.0,
+    "less_each": 0.05,
+    "shortest": 1.2,
+    "near": 15,
+    "misses_allowed": 0,
+    "hide_sound": ""
+  },
+  "herd": {
+    "pen": "corner",
+    "pen_radius": 12,
+    "pen_sound": "",
+    "speed": 1.6,
+    "flee_distance": 12
+  },
+  "rhythm": {
+    "beats_per_minute": 60,
+    "faster_every": 8,
+    "faster_by": 4,
+    "fastest": 160,
+    "window": 0.15,
+    "misses_allowed": 5,
+    "beat_sound": ""
+  },
+  "sort": {
+    "wrong": "lose_points",
+    "penalty": 5
+  },
+  "lamps": {
+    "lamps": 4,
+    "burn_seconds": 20,
+    "fade_seconds": 8,
+    "shorter_each": 0.5,
+    "shortest": 6,
+    "out_allowed": 1,
+    "light_sound": ""
+  },
+  "escape": {
+    "first_room": 1,
+    "more_each_room": 1,
+    "most": 8,
+    "points_per_room": 10,
+    "exit_sound": "exit_morse",
+    "exit_distance": 30
+  },
+  "time_credits": {
+    "enabled": false,
+    "values": [
+      10,
+      15,
+      20
+    ],
+    "weights": [
+      55,
+      30,
+      15
+    ],
+    "every_seconds": 30,
+    "first_after_seconds": 20,
+    "lasts_seconds": 0,
+    "min_distance": 12,
+    "max_at_once": 1
+  },
+  "clock": {
+    "on": true,
+    "announce_every_seconds": 60,
+    "countdown_seconds": 15
+  },
+  "hazards": {
+    "count": 10,
+    "name": "turkey",
+    "sound": "evt_turkey_gobble.ogg",
+    "behavior": "hunt",
+    "home": "corner",
+    "speed": 1.5,
+    "react_distance": 14,
+    "on_touch": "end_run",
+    "penalty": 15,
+    "can_be_shot": true,
+    "hits_to_down": 1,
+    "points_for_down": 10,
+    "respawn_seconds": 0,
+    "volume": 1.0,
+    "lives": 1
+  },
+  "weapon": {
+    "enabled": true,
+    "start_shots": 15
+  },
+  "messages": {
+    "start": "",
+    "end": "",
+    "start_sound": "evt_ding.ogg",
+    "end_sound": "evt_angry_growl.ogg"
+  },
+  "medals": {
+    "bronze": 0,
+    "silver": 0,
+    "gold": 0
+  },
+  "signature": "17b65dc5f9b93a637d28a5444677caa5b88a86da80ee5f0c8cd2622403d57253499654f01e347f27965dd448269e7c13fbdb0219130b60791035cb6dff150b0a"
+}
