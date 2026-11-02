@@ -6,7 +6,7 @@
   "name": "Pumpkin Hunt",
   "description": "Happy Halloween! Pumpkins are hidden all over a huge, echoing cathedral, among organ music, ghostly choirs and a graveyard chill. You have two minutes. Each pumpkin knocks and whistles: follow the sound with the arrow keys and walk into it to collect it, and the next one appears somewhere else. Find as many as you can. Enter tells you your score, and T the time left. Your best run is kept in Event High Scores.",
   "start": "2026-10-31T12:00:00Z",
-  "end": "2026-11-14T13:00:00Z",
+  "end": "2026-11-05T13:00:00Z",
   "mission": "collect",
   "time_limit_seconds": 120,
   "room": "cathedral",
@@ -65,6 +65,7 @@
     "dark_exit_chance": 0.0,
     "dark_exit_first_level": 2,
     "dark_exit_sound": "",
+    "dark_exit_volume": 1.0,
     "announce_levels": true
   },
   "survive": {
@@ -330,5 +331,5 @@
     "silver": 0,
     "gold": 0
   },
-  "signature": "f0462884254de0fa885586dff17351329e0927319e51da12eec1e9241c1cd44603b0c9b33e5dfcadd4236f8049edb0193228e292ed9f81667973b270b3061c05"
+  "signature": "2d23015694e3cfa33beb91307a8d49639d0fce75bb3181892b87f97ac8ea3ab7fa482de2f35bd2b9d434519d32a5918e7a84fcb461c2192222b5d4b38d3b130d"
 }
