@@ -1,12 +1,12 @@
 {
   "format": 1,
-  "id": "turkey-hunt-2026",
-  "enabled": false,
+  "id": "turkey-hunt-2026-2",
+  "enabled": true,
   "protected": false,
   "name": "Turkey Hunt",
   "description": "Hunt down turrkies. You have 2 minutes. No ammo to colect. If a turkey hits you, you'll lose quite a bit of time. There are credits that are rare that increase your time. How many turrkies can you defeat for thanksgiving?",
-  "start": "2026-11-03T13:00:00Z",
-  "end": "2026-11-10T13:00:00Z",
+  "start": "2026-11-02T17:46:42Z",
+  "end": "2026-11-28T17:46:42Z",
   "mission": "hunt",
   "time_limit_seconds": 120,
   "room": "lab",
@@ -328,5 +328,5 @@
     "silver": 0,
     "gold": 0
   },
-  "signature": "2903cb5e9a21f71a1b66e87236e74dc1fb999e3500e039f0cd38e6bc1c3f79a00541cc024a936394b8c76975b89beb873330260d266b701e73eb15ba0bb3290d"
+  "signature": "3ad4f54f18734f4a7c2e4ab477dff0827e2e2d1f04f5d17f7f32117e11b3339e384514d0b2527859fb361d80a75490a6c2c39185e2268b5fdd326a385e2ddc08"
 }
