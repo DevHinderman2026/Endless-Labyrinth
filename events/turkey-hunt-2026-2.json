@@ -276,17 +276,17 @@
   "time_credits": {
     "enabled": true,
     "values": [
+      30,
       60,
-      80,
-      120
+      90
     ],
     "weights": [
-      55,
-      30,
-      15
+      60,
+      40,
+      10
     ],
     "every_seconds": 70,
-    "first_after_seconds": 80,
+    "first_after_seconds": 75,
     "lasts_seconds": 0,
     "min_distance": 24,
     "max_at_once": 1
@@ -328,5 +328,5 @@
     "silver": 0,
     "gold": 0
   },
-  "signature": "7a6cff2188ccca8024ed51c7bd3344030ba4b358039aeab8e42f6b39f86fcfe9e403be6a86611e0db5cf0d0ae415087d60cdd46cd9e372fee4becf98c12daa05"
+  "signature": "b01fdfa5b21ff6acceb2d87eab1f3feb5f474bd4eab3834c9507960118deae4737ec610618538966b0797e09ee1f503ccf026011e9f58ede317d0f55b50c1d04"
 }
