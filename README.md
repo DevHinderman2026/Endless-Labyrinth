@@ -14,6 +14,8 @@ Endless Labyrinth is an audio game for Windows, made to be played by ear, by bli
 
 Press H at any time for help, which explains every mode, every key and every sound, with demos you can listen to.
 
+**Credits and version history:** see the [Credits and Version History](Credits%20and%20Version%20History) folder: [CHANGELOG.md](Credits%20and%20Version%20History/CHANGELOG.md) lists what each version of the game brought, and [CREDITS.md](Credits%20and%20Version%20History/CREDITS.md) credits every recorded sound.
+
 The game speaks through its own speech, and works with screen readers. With a Braille notetaker such as the BrailleNote Evolve, or a Braille display and NVDA, it shows everything in Braille too.
 
 ## Download and play
@@ -38,11 +40,12 @@ High scores, Event High Scores and settings are saved only on your own computer,
 
 ## Credits
 
-Endless Labyrinth is designed and directed by Russell Hinderman (DevHinderman2026). Every recorded sound is credited, with its author and a link to the original, in [CREDITS.md](Dev%20Builds/sounds/CREDITS.md); a copy is in the download too.
+Endless Labyrinth is designed and directed by Russell Hinderman (DevHinderman2026). Every recorded sound is credited, with its author and a link to the original, in [CREDITS.md](Credits%20and%20Version%20History/CREDITS.md); a copy is in the download too.
 
 ## What's in this repository
 
-- `Dev Builds/sounds/CREDITS.md`: the credits for every recorded sound. The sounds themselves come only inside the game download.
+- `Credits and Version History`: the game's changelog, and a copy of the credits for every recorded sound. The sounds themselves come only inside the game download.
+- `Dev Builds/sounds/CREDITS.md`: the original credits, which the game's own files are kept with.
 - `Dev Builds/event_key.pub`: the public half of the developer's event key, which the game uses to check that an event is genuine.
 - `events`: the event files the game reads. Every event is signed, and the game plays only events signed by the developer.
 - `LICENSE.md`: how the game may be used. All rights reserved; the sounds are used under Pixabay's license.
