@@ -2,7 +2,11 @@
 
 Copyright © 2026 Russell Hinderman (DevHinderman2026). All rights reserved.
 
-Endless Labyrinth, including its code, its sound design, its events and its documents, belongs to Russell Hinderman. You may download the game from this repository's Releases and play it. You may not copy, change, sell or redistribute the game, or any part of it, without Russell's written permission.
+Endless Labyrinth, including its code, its sound design, its events and its documents, belongs to Russell Hinderman. You may download the game from this repository's Releases and play it. You may also record, stream and post your own play, and earn money from your own videos. You may not copy, change, sell or redistribute the game, or any part of it, without Russell's written permission.
+
+## Terms of Use and Privacy Policy
+
+This file is a short summary. The full Terms of Use and Privacy Policy cover both this Windows version and the web version. They are on the game's website ([Terms of Use](https://devhinderman2026.github.io/endless-labyrinth-web-version/terms.html), [Privacy Policy](https://devhinderman2026.github.io/endless-labyrinth-web-version/privacy.html)), and copies are in this repository: [TERMS.md](TERMS.md) and [PRIVACY.md](PRIVACY.md). Where they say more than this file, they apply.
 
 ## Sounds
 

@@ -14,6 +14,10 @@ Endless Labyrinth is an audio game for Windows, made to be played by ear, by bli
 
 Press H at any time for help, which explains every mode, every key and every sound, with demos you can listen to.
 
+## Play on a phone, tablet, Chromebook or Mac
+
+Endless Labyrinth also plays in a web browser, with nothing to install: the same six modes and the same events, on an iPhone, an iPad, an Android phone or tablet, a Chromebook, a Mac or a Linux computer. Play it at **[the game's website](https://devhinderman2026.github.io/endless-labyrinth-web-version/)**. On a phone or tablet it is played with touch gestures; on a computer, with the keyboard. Its scores are kept separately from the Windows version's.
+
 **Credits and version history:** see the [Credits and Version History](Credits%20and%20Version%20History) folder: [CHANGELOG.md](Credits%20and%20Version%20History/CHANGELOG.md) lists what each version of the game brought, and [CREDITS.md](Credits%20and%20Version%20History/CREDITS.md) credits every recorded sound.
 
 The game speaks through its own speech, and works with screen readers. With a Braille notetaker such as the BrailleNote Evolve, or a Braille display and NVDA, it shows everything in Braille too.
@@ -48,6 +52,7 @@ Endless Labyrinth is designed and directed by Russell Hinderman (DevHinderman202
 - `Dev Builds/sounds/CREDITS.md`: the original credits, which the game's own files are kept with.
 - `Dev Builds/event_key.pub`: the public half of the developer's event key, which the game uses to check that an event is genuine.
 - `events`: the event files the game reads. Every event is signed, and the game plays only events signed by the developer.
-- `LICENSE.md`: how the game may be used. All rights reserved; the sounds are used under Pixabay's license.
+- `LICENSE.md`: how the game may be used, in short. All rights reserved; the sounds are used under Pixabay's license.
+- `TERMS.md` and `PRIVACY.md`: the full Terms of Use and Privacy Policy, which cover both the Windows version and the web version. They are copies of the pages on [the game's website](https://devhinderman2026.github.io/endless-labyrinth-web-version/terms.html), which has the current version.
 
 The game itself is downloaded from [Releases](https://github.com/DevHinderman2026/Endless-Labyrinth/releases); this repository is where its events come from.
