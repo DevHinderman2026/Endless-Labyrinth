@@ -1,8 +1,40 @@
 # Changelog
 
-The version history of Endless Labyrinth for Windows. To get the latest version, download **Endless Labyrinth.zip** from the [Releases page](https://github.com/DevHinderman2026/Endless-Labyrinth/releases/latest). When you update, copy your `players` folder from your old copy of the game into the new one, so your high scores, Event High Scores and settings come with you.
+The version history of Endless Labyrinth for Windows. From version 2.0.0 the game updates itself when you ask it to: choose **Check for Updates** on the main menu, and your high scores, Event High Scores and settings are kept. If you have 1.0.1 or older, download **Endless Labyrinth.zip** from the [Releases page](https://github.com/DevHinderman2026/Endless-Labyrinth/releases/latest) once more, and copy your `players` folder from your old copy of the game into the new one, so your scores and settings come with you; every update after that is one key press.
 
 Events are not listed here: new events reach your game through this repository, without a new version.
+
+## 2.0.0 (6 November 2026)
+
+A difficulty overhaul, and the game now updates itself when you ask. Tuned by ear.
+
+### New
+
+- **Check for Updates.** A new entry on the main menu, after Key Test. The game says the newest version number and what is new, and asks you to press Y to update or N to stay. Press Y and it downloads the new version, says how far it has got, checks the download, closes, installs the update over itself and starts again on its own. Your `players` folder, with every score and setting, is never touched. Nothing is ever downloaded without your Y, and there are no automatic updates. The start-up notice about a new version now points you to Check for Updates. The help explains it all under General, Updates.
+- The Terms of Use and Privacy Policy (`TERMS.md` and `PRIVACY.md`) now ship inside the game, next to the license.
+
+### Changed: battle mode
+
+- **The emergency cartridge** (the one that appears when you run dry by firing mid-wave) now holds enough shots to finish the wave, and never fewer than three. It used to hold only enough for the enemies in the room at that moment, which was often one or two shots: not enough to finish the wave, which made it no rescue at all.
+- **Wave breaks** start at 45 seconds and get a second shorter every wave, down to 30 seconds from wave sixteen on. They used to start at 24 seconds and fall to 10, which left no time to find credits and ammo by ear once the waves grew. The 60-second clock and the credit values are unchanged.
+
+### Changed: tower mode (and chaos tower floors)
+
+- **Each tower is one and a half times as hard as the one below it**, instead of twice. By tower four that is about three and a half times tower one instead of eight times.
+- **On tower one, floors one, two and three need one, two and three hits** to bring the rival down.
+- **A thrown item never takes more than 25 health**, in tower mode and on chaos tower floors alike: four clean hits from full at the hardest. It used to reach 40 by tower three (three hits) and 55 deep in a climb (two hits).
+
+### Changed: standard mode labyrinths (and chaos labyrinths)
+
+- **Levels past 10 grow gently.** Every labyrinth has always had a way out, but from about level 15 the walls were so dense and the room so large that the way out could not be found by ear in the time: at level 20 the shortest route averaged 36 steps and could pass 80. Levels 1 to 10 are unchanged; after that the room grows half as fast and the walls thicken half as fast, never past a quarter of the cells, so level 20 averages 22 steps and level 40 about 33. Every level is still a little bigger than the last.
+
+### Changed: events
+
+- **Follow the guide: the guide speeds up.** In The Music Box and Whale Song the guide walks a little faster as the run goes on, so a run with no clock ends in the end: the longer you keep up, the higher your score. Event makers get three settings for it: how often, by how much, and the top speed. Events made before 2.0.0 get the defaults (every 15 seconds, 0.1 steps a second faster, up to 3) without any change to their files.
+
+### Unchanged
+
+- Island mode, driving mode, and everything else in chaos mode.
 
 ## 1.0.1 (2 November 2026)
 

@@ -31,12 +31,19 @@ The game speaks through its own speech, and works with screen readers. With a Br
 
 Nothing needs to be installed. The game runs on Windows.
 
+## Updating
+
+From version 2.0.0 the game updates itself, but only when you ask: choose **Check for Updates** on the main menu. The game says the newest version number and what is new, then asks you to press Y to update or N to stay. Press Y and it downloads the new version, says how far it has got, closes, installs the update over itself and starts again on its own. Your `players` folder, with every score and setting, is kept. Nothing is downloaded without your Y, and there are no automatic updates. When the game starts with an internet connection and a newer version is out, the main menu tells you once.
+
+If you have version 1.0.1 or older, which has no Check for Updates, download the zip from the [latest release](https://github.com/DevHinderman2026/Endless-Labyrinth/releases/latest) once more, unzip it, and copy your `players` folder from the old copy into the new one.
+
 ## Online and offline
 
 The game plays offline. When it starts with an internet connection, it also:
 
 - checks this repository for events, so new events appear in your Events menu without a new download;
-- checks its sounds, and puts back any that are missing or damaged from the game's latest release, so a sounds folder you delete by accident comes back by itself.
+- checks its sounds, and puts back any that are missing or damaged from the game's latest release, so a sounds folder you delete by accident comes back by itself;
+- checks for a newer version of the game, and tells you if there is one. It downloads an update only when you choose Check for Updates and press Y.
 
 ## Your saves
 
