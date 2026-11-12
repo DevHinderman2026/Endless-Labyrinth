@@ -4,6 +4,17 @@ The version history of Endless Labyrinth for Windows. From version 2.0.0 the gam
 
 Events are not listed here: new events reach your game through this repository, without a new version.
 
+## 3.0.1 (November 2026)
+
+Fixes for the new kinds of event. Only events change: Standard, Battle, Tower, Island, Driving and Chaos are exactly as they were.
+
+- **Less broken glass, and it stays.** A smashed glass case now leaves broken glass only on its own square and the eight around it, three steps across, and that glass stays where it fell on every level after. Before, it spread five steps across, so it was hard to get past without a creature hearing you.
+- **Nothing out of reach behind a creature.** A creature that listens is never placed on an item or right beside one, and a new item is never placed beside one. Before, an item could lie where it could only be reached by walking into the creature.
+- **Items you can tell apart.** In the new kinds of event, when an event gives its items several sounds, each item now takes a different one, so several items out at once can be told apart by ear.
+- **An extra life calls with a bell.** The heartbeat it used was too low to be heard from far away.
+- **A charge you can hear coming.** A creature that charges now makes footsteps as it runs, heard from where it is, on whatever floor it is crossing.
+- **Creatures can grow level by level, up to a limit.** An event played in levels can now set the most creatures a level ever has, so it can begin with one and build up.
+
 ## 3.0.0 (November 2026)
 
 The biggest update to events since they began. Only events change: Standard, Battle, Tower, Island, Driving and Chaos are exactly as they were in 2.0.0. Every event made before 3.0.0 plays as it always did.
