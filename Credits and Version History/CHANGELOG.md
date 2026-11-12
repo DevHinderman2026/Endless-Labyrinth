@@ -4,6 +4,77 @@ The version history of Endless Labyrinth for Windows. From version 2.0.0 the gam
 
 Events are not listed here: new events reach your game through this repository, without a new version.
 
+## 3.0.0 (November 2026)
+
+The biggest update to events since they began. Only events change: Standard, Battle, Tower, Island, Driving and Chaos are exactly as they were in 2.0.0. Every event made before 3.0.0 plays as it always did.
+
+### New: seven kinds of event
+
+- **Memories.** Memories lie about each level, each with a few notes of music of its own. Find them all to reach the next level. Made for Trapped in Darkness.
+- **Smash and Grab.** Every item is in a glass case: find it by its knocking and smash it with Space.
+- **Silent Escape.** Reach the way out of each room without waking the creatures that listen.
+- **Echo Hunt.** Hidden things call only now and then, each with a few notes of music.
+- **Lure.** Pick up stones and throw them with Space to draw listening creatures away.
+- **Rebuild the Song.** Find every piece of a tune, and the whole melody plays.
+- **Storm Chase.** Reach each shelter before the thunder arrives.
+
+### New: twenty-five more kinds of event
+
+- **Red Light, Green Light.** Walk to the goal only while the music plays; a step in the silence costs a life.
+- **Minefield.** Cross the field: after every step, one click for each mine beside you.
+- **Stepping Stones.** Hear a path of notes across the water, then walk it from memory.
+- **Bat and Ball.** Get into the line of a bouncing ball and hit it back.
+- **Race a Rival.** A rival you can hear is after the same items as you.
+- **Catch the Thief.** Catch the thief before it gets out with a treasure.
+- **Boss.** One great creature that stalks, roars and charges; your shots hurt it only while it is tired.
+- **Escort.** Lead a friend home and shoot the raiders that come for it.
+- **Shooting Gallery.** Line up the targets and shoot them, but spare the friends.
+- **Odd One Out.** Several things sound the same note; step onto the one that is a little off.
+- **Cover the Ground.** Every square you step on for the first time scores.
+- **Sonar Maze.** A maze of silent walls and a silent way out, heard only by pinging with Space.
+- **Courier.** Hear what each customer wants, fetch it from the right shelf and bring it back.
+- **Dance Steps.** Repeat the caller's row of steps with the arrow keys.
+- **Tag.** Keep away from the one that is it; when you are it, tag one back.
+- **Crossing the Road.** Cross lanes of traffic that you hear sweeping past.
+- **Mirror Twin.** Steer a twin that steps the opposite way to you onto a calling spot.
+- **March in Time.** Take one step on every drum beat while you collect things.
+- **Count the Chimes.** Walk as many steps as the bell rang, then press Space.
+- **Rising Tide.** Reach high ground before the water behind you reaches you.
+- **Snake.** Every item makes your tail longer, and you must not step on it.
+- **Push the Crate.** Push a humming crate onto the spot that calls for it.
+- **Crack the Code.** Find the secret order of a ring of pads by trial and memory.
+- **Turn the Tables.** Take the power item and the creatures run from you.
+- **Treasure Map.** Follow spoken directions, counting your own steps, and dig with Space.
+
+That makes 63 kinds of event in all, and any of them can be a stage of a longer event.
+
+### New: what any event can now have
+
+- **Glass display cases.** A case hums, knocks from within fifteen steps, and rings a bell when you are beside it; Space smashes it. Whatever was inside is yours at once, and the voice says only an extra reward. Broken glass is left on the floor.
+- **Creatures that listen.** They wait, breathing, facing one way. A few steps in front of one wakes it; beside or behind it is safe. Loud sounds wake it from farther off. It growls, charges for a while, then stops where it is.
+- **Runners, statues and throwers,** and up to three kinds of creature in one event.
+- **Floors** you hear in your footsteps: stone, sand, snow, water, glass, ice and mud. Glass is loud, water is quiet, ice slides you a step, mud holds you a moment.
+- **Walls.** An event room can be a labyrinth, new on every level. Creatures find their way round the walls.
+- **Levels and endings.** Collecting events can be played in levels, always announced by number. A run can end after a set number of levels, or a number chosen afresh each run.
+- **Stages.** One event can be up to five stages in a row, each a different mission, with one score.
+- **A meter** that runs down and must be refilled, such as air or warmth.
+- **Traps, safe spots, teleports and treasure chests.**
+- **Supplies** in any event: ammo boxes, extra lives and bonus points.
+- **Story lines:** an event can have the voice speak a line as a level begins, when so many items are found, or when a creature first wakes.
+- **Music played by the game.** Twelve well-known tunes and six instruments, for the items of the musical events.
+
+### New: events from newer versions
+
+- The web version of the game keeps growing. If an event ever uses something this version does not have, it is still listed in the Events menu, with the words "on the website only", so you know it is on.
+
+### Help
+
+- The Events section of the help describes all of the above, every new kind of event included, with the knock of a glass case to listen to.
+
+### If you have 2.0.0
+
+- Choose **Check for Updates** on the main menu. Events that use the new features appear only in 3.0.0 and later.
+
 ## 2.0.0 (6 November 2026)
 
 A difficulty overhaul, and the game now updates itself when you ask. Tuned by ear.
