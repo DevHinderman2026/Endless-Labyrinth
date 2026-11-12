@@ -60,6 +60,7 @@ That makes 63 kinds of event in all, and any of them can be a stage of a longer 
 - **A meter** that runs down and must be refilled, such as air or warmth.
 - **Traps, safe spots, teleports and treasure chests.**
 - **Supplies** in any event: ammo boxes, extra lives and bonus points.
+- **Unlimited shots.** An event can give you a laser that never runs out. Enter then says "unlimited shots" in place of a number, no ammo boxes appear, and a reward that would have been shots is points instead.
 - **Story lines:** an event can have the voice speak a line as a level begins, when so many items are found, or when a creature first wakes.
 - **Music played by the game.** Twelve well-known tunes and six instruments, for the items of the musical events.
 
