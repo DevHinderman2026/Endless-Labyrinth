@@ -5,8 +5,8 @@
   "protected": true,
   "name": "Call of Fate",
   "description": "Deep in a vast cathedral, the true bell of fate rings among false bells. The false ones are warped copies of the real one: they shudder and ring out of tune. Every bell, real and false, rings once a second, so you can always tell where each one is, even behind you. Walk into the real bell with the arrow keys to ring it. It falls silent, then calls again from somewhere new with a new note, and the false bells take up that note too. Level 1 asks for one ring. Each level after asks for the same number as the last, or up to two more, at random. As each level begins you are told how many rings it needs, and nothing else is said while you play. When you have rung enough, the way out opens. The exit of the light is a heavenly choir, high bright voices with a shimmering bell ringing over them. Walk into it and the next level begins. On some levels the exit of the dead opens as well, and nothing tells you so. It is a dark choir, deep low voices that hum like the cathedral itself, and it opens right in front of the exit of the light, between it and you. Walk into the exit of the dead and your fate is sealed: the run is over. To reach the light, listen for the two choirs and go round the dark one. Walk onto a false bell and the run is over too. Left and Right turn you and take a step, but they never touch a bell or a way out, so you can turn to listen safely. To ring a bell or go through a way out, turn left or right until it is straight ahead of you or straight behind you, then step forward or back onto it with Up or Down. There is no clock. Enter tells you your level and how many rings are left.",
-  "start": "2026-11-18T13:00:00Z",
-  "end": "2026-11-28T13:00:00Z",
+  "start": "2026-11-16T19:55:27Z",
+  "end": "2026-12-07T19:55:27Z",
   "mission": "decoys",
   "time_limit_seconds": 0,
   "room": "cathedral",
@@ -90,6 +90,9 @@
   },
   "follow": {
     "speed": 1.2,
+    "faster_every_seconds": 15,
+    "faster_by": 0.1,
+    "top_speed": 3.0,
     "near_distance": 15,
     "lost_seconds": 8,
     "points_per_second": 2,
@@ -330,5 +333,5 @@
     "silver": 0,
     "gold": 0
   },
-  "signature": "1b82649dd620745695c866ba2e97ede67fec10200e1099414c61ed5ac07c76d80649f30915ae8774c3ef66de570bca48f61dfe861960dd8e1bd6268bb7c2de08"
+  "signature": "3c5f350c9068753de2768686702cfa989e1c87c6e7c028248a705948c84150327787ac5702ec3e34bc5b106131705edaf6c9003b4952fcd6253b13fdaa51330d"
 }
