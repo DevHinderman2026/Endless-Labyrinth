@@ -27,7 +27,7 @@
     "min_distance": 10,
     "max_distance": 0,
     "direction": "anywhere",
-    "volume": 1.0,
+    "volume": 1.5,
     "beacon_file": "",
     "beacon_set": [],
     "pickup_file": "evt_door_unlock.ogg",
@@ -310,7 +310,7 @@
     "hits_to_down": 3,
     "points_for_down": 10,
     "respawn_seconds": 0,
-    "volume": 1.0,
+    "volume": 0.5,
     "lives": 3
   },
   "weapon": {
@@ -328,5 +328,5 @@
     "silver": 60,
     "gold": 100
   },
-  "signature": "7ee7e4f7501f733397f5d9f833fe1c5210160459884f3c06d6335b2d3a8e4b5853b0fca87c5bec75509afbcb6087074ddd20f5658504c446441b914b965ee902"
+  "signature": "863763528432f2399526a6a61c1adc559973e1fa76870418f355aa6060163ac479507df1cd0227770b211555283c2340a240744bba0dff6593c183fcf5313005"
 }
