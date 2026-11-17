@@ -1,7 +1,7 @@
 {
   "format": 2,
   "id": "pumpkin-hunt-second-addition-2026",
-  "enabled": true,
+  "enabled": false,
   "protected": false,
   "name": "Pumpkin Hunt, Second Addition",
   "description": "Pumpkins are scattered all over A cathedral. however there are glass cases that you have to find in order to retrieve them. some could just be scattered on a floor. you'll never know. you have a time limit, 2 minutes. smash a glass case in the ghosts come for you. shoot them down with the laser. glass cases will give you some ammo as well. there will also be time credits you can collect from time to time.",
@@ -350,5 +350,5 @@
     "chasers_most": 4,
     "chaser_speed": 3.0
   },
-  "signature": "4293dee18e39843ec07ba3b8917c54f9991c2c34f3f71284b9e2225423d97165535ec3963fa0232df19486e08a7776e56e10e902fcef5efe3621e9ead13c7b04"
+  "signature": "4249a68259b6f31bda4384d6c23db10c98f58e5ab6bd7c3d44f25fbd994c6c90e17a84f6f3325c4409598b770cc595a1779cd15c6f03b19e7bfe408a9f440600"
 }

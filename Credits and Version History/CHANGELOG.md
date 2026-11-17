@@ -4,6 +4,34 @@ The version history of Endless Labyrinth for Windows. From version 2.0.0 the gam
 
 Events are not listed here: new events reach your game through this repository, without a new version.
 
+## 3.1.0 (November 2026)
+
+New things for events, the climb up the stairs, sounds that are easier to find, and running. Every event made before 3.1.0 plays as it always did.
+
+### New: in events
+
+- **Smash and grab with an exit.** An event can have an exit that you hear from the start, but that stays locked, and quieter, until every glass case in the room is smashed. Walk out through it to the next room, with a new number of cases.
+- **Chasers of their own.** The creatures a smashed case brings can have their own sound, such as a ghost, their own cost when they reach you, and whether the laser brings them down. One that reaches you then vanishes.
+- **Rewards that vary.** A glass case or a treasure chest can give some rewards more often than others, such as shots from most cases and extra time from a few, and a different amount each time, such as 15 to 45 seconds.
+- Events that use any of these play in 3.1.0 and later. Older versions list them as playable on the website only.
+
+### New: running
+
+- **Hold the Up arrow to run** north, about 280 steps a minute, and **hold the Down arrow to walk back** south, about 200 a minute, in Standard, Battle, Tower, Island, Chaos and the events. Letting go stops you, and so does a wall, the edge of the room, a new level and pausing. A quick press is still one step, Left and Right are still one step each, and nothing turns. Driving is unchanged, and so are a Braille notetaker's keys.
+
+### Changed: the climb up the stairs
+
+- When you climb to the next floor, level, room or round, the next one now begins once the climb has finished, and half a second more, instead of on top of it. The background keeps playing, the clock waits, and you cannot move until it begins.
+- In Chaos, the climb is now heard every time you take the stairs. Until now it was heard only when the stairs led to another tower floor.
+
+### Fixed: sounds that would not sit in the middle
+
+- Some event recordings drift from one side to the other by themselves, such as the fairy dust in Trapped in Darkness, so they could never be centred. Every looping sound you find by ear in an event, such as an item, a way out or a creature, is now played from one point, and only its place in the room says where it is.
+
+### If you have 2.0.0 or newer
+
+- Choose **Check for Updates** on the main menu.
+
 ## 3.0.1 (November 2026)
 
 Fixes for the new kinds of event. Only events change: Standard, Battle, Tower, Island, Driving and Chaos are exactly as they were.
