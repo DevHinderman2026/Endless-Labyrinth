@@ -6,7 +6,17 @@ Events are not listed here: new events reach your game through this repository, 
 
 ## 3.1.0 (November 2026)
 
-New things for events, the climb up the stairs, sounds that are easier to find, and running. Every event made before 3.1.0 plays as it always did.
+The modes brought in line with the website, new things for events, the climb up the stairs, sounds that are easier to find, and running. Every event made before 3.1.0 plays as it always did.
+
+### Changed: the modes, now as on the website
+
+The website's version of the game has rebalanced its modes over the last week; 3.1.0 brings those rules to Windows. Windows keeps its own controls: north is always ahead, and nothing turns.
+
+- **Battle.** You start with eighty seconds (was sixty). During a wave the clock waits whenever nothing is after you, and runs again the moment the next enemy appears; during a break it runs as before. Enemies come in turns, never all at once: one at a time in waves 1 to 3, the next appearing only after you shoot the one before, two at once in waves 4 to 6, three in 7 to 9, and four, the most there will ever be, from wave 10. The first wave has six. Breaks start at fifty-two seconds and shrink a second a wave to twenty-five (were forty-five and thirty). Credits are worth fifteen, twenty-five or thirty-five seconds (were ten, fifteen and twenty), and each break holds only three to six of them.
+- **Standard.** You start with sixty seconds (was forty-five), and credits are worth twenty, thirty or forty seconds (were fifteen, twenty and thirty).
+- **Tower.** The rival is rebalanced to start gentle and still grow every tower with no limit. In tower one it races for an item just faster than you walk, so running wins most races, and it gets five percent faster every tower. Every new item gives you a head start before the rival races for it, a second and a half in tower one. A new item lies four to ten steps from you, never at the rival's feet. Each item you take makes the rival three percent faster, at most five times. In tower one its throws fly slower than you walk, come about every seven seconds and warn you for a second and a half; each tower after, they come faster and more often, with no limit.
+- **Island.** A dive now gives twenty seconds of air (was thirty). From ten seconds left you hear Low air, then high beeps that come faster and faster as the air runs out (they were once a second over the last fifteen). Every dive has an air vent (until now about half did), and ten seconds after you take one, another appears somewhere else on the seabed. Every step along the seabed is now a swimming stroke.
+- **Chaos.** Its battles, tower floors and islands follow the same rules. In its battles enemies come in turns too, counted by the battles you have played in the run: one at a time in the first three, then two, up to four. Its five minutes and its credits are unchanged.
 
 ### New: in events
 
@@ -27,6 +37,10 @@ New things for events, the climb up the stairs, sounds that are easier to find, 
 ### Fixed: sounds that would not sit in the middle
 
 - Some event recordings drift from one side to the other by themselves, such as the fairy dust in Trapped in Darkness, so they could never be centred. Every looping sound you find by ear in an event, such as an item, a way out or a creature, is now played from one point, and only its place in the room says where it is.
+
+### Fixed: lives missing from the report
+
+- In an event whose creatures all come from smashed glass cases, such as The Jewel Heist, Enter did not say how many lives you had left, though a guard's touch still cost one. Enter now says your lives whenever a creature's touch can cost one, from the start of the run.
 
 ### If you have 2.0.0 or newer
 
