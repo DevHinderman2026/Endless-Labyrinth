@@ -335,7 +335,7 @@
     "gold": 0
   },
   "cases": {
-    "share": 0.03,
+    "share": 0.1,
     "extra": "shots",
     "random_kinds": [
       "seconds",
@@ -350,5 +350,5 @@
     "chasers_most": 4,
     "chaser_speed": 3.0
   },
-  "signature": "1f3a74f62327c24d4e8c703d9b4d08a97212fadb20602035567f1863c458b886e33eabb258a271aa0f8dbb25242e5da9da0cbc09ccb4c636d92ea27b15d0cb0a"
+  "signature": "4293dee18e39843ec07ba3b8917c54f9991c2c34f3f71284b9e2225423d97165535ec3963fa0232df19486e08a7776e56e10e902fcef5efe3621e9ead13c7b04"
 }
