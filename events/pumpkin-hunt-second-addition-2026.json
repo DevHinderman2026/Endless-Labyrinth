@@ -7,7 +7,7 @@
   "description": "Pumpkins are scattered all over A cathedral. however there are glass cases that you have to find in order to retrieve them. some could just be scattered on a floor. you'll never know. you have a time limit, 2 minutes. smash a glass case in the ghosts come for you. shoot them down with the laser. glass cases will give you some ammo as well. there will also be time credits you can collect from time to time.",
   "start": "2026-11-17T03:18:21Z",
   "end": "2026-12-02T03:18:21Z",
-  "mission": "smash",
+  "mission": "collect",
   "time_limit_seconds": 120,
   "room": "cathedral",
   "room_size": 50,
@@ -304,7 +304,7 @@
   },
   "hazards": {
     "count": 0,
-    "name": "beast",
+    "name": "Ghosts",
     "sound": "guardian",
     "behavior": "guard",
     "home": "corner",
@@ -326,8 +326,8 @@
   "messages": {
     "start": "",
     "end": "",
-    "start_sound": "evt_evil_laugh.ogg",
-    "end_sound": ""
+    "start_sound": "evt_thunder_clap.ogg",
+    "end_sound": "evt_referee_whistle.ogg"
   },
   "medals": {
     "bronze": 0,
@@ -335,7 +335,7 @@
     "gold": 0
   },
   "cases": {
-    "share": 0.25,
+    "share": 0.03,
     "extra": "shots",
     "random_kinds": [
       "seconds",
@@ -350,5 +350,5 @@
     "chasers_most": 4,
     "chaser_speed": 3.0
   },
-  "signature": "e1ee457f2b781b502b4ed87afca6b20b41c51117c7835ce44c8742d78003e04cece2511b70fe8ccfafc6fb76953bec3381edee586f5f9ebfd070c9bc441d5f06"
+  "signature": "38c495bb1c4c39a37c87bc7ad30f9feed5f69ba0cfdb577d1bd6cd4cecbff5b6db03277e72e64754dcdba741ce0158c64b1610069a9fa0bfb2d8f3459f44260f"
 }
