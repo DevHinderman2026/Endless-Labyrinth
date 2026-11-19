@@ -4,7 +4,7 @@
   "enabled": true,
   "protected": false,
   "name": "Trapped in Darkness",
-  "description": "You are trapped in the dark, and your memories lie scattered about. Each memory calls with a sound of its own: a music box, wind chimes, a piano note, a shimmer or a ticking clock. Walk onto a memory to take it back, and it plays a few notes of its own. Some memories are locked in glass cases: a case hums like crystal, knocks as you come near, and rings a bell when you are beside it. Then press Space to smash it. Creatures wait in the dark, breathing: one on the first level, one more on each level after, and never more than three. Each faces one way: come within three steps in front of one and it wakes, but beside or behind it you are safe. Smashing a case and stepping on broken glass are loud, and wake any creature within about ten steps. Broken glass stays where it fell, on every level after. A creature that wakes growls once, then charges straight at you for about ten seconds, running about three steps a second: you hear its footsteps coming, and where they come from. Keep moving away from them until they stop: then it rests again where it stands. If one catches you, the run is over. Find every memory on a level to reach the next. There is no clock, and you are not told which level is the last. Enter tells you how you are doing.",
+  "description": "You are trapped in the dark, and your memories lie scattered about. Each memory calls with a sound of its own: a music box, wind chimes, a piano note, a shimmer or a ticking clock. Walk onto a memory to take it back, and it plays a few notes of its own. Some memories are locked in glass cases: a case hums like crystal, knocks as you come near, and rings a bell when you are beside it. Then press Space to smash it. Creatures wait in the dark, breathing: one on the first level, one more on each level after, and never more than three. Each faces one way: come within three steps in front of one and it wakes, but beside or behind it you are safe. Smashing a case and stepping on broken glass are loud, and wake any creature within about ten steps. Broken glass stays where it fell, on every level after. A creature that wakes growls once, then charges straight at you for about ten seconds, running about three steps a second: you hear its footsteps coming, and where they come from. Keep moving away from them until they stop: then it rests again where it stands. If one catches you, the run is over. Find every memory on a level to reach the next. There is no clock, and you are not told which level is the last. Reach the end without being caught for a bonus of 50 points. Enter tells you how you are doing.",
   "start": "2026-11-12T05:51:16Z",
   "end": "2026-11-19T05:51:16Z",
   "mission": "memories",
@@ -330,9 +330,9 @@
     "end_sound": ""
   },
   "medals": {
-    "bronze": 8,
-    "silver": 16,
-    "gold": 26
+    "bronze": 10,
+    "silver": 25,
+    "gold": 55
   },
   "levels": {
     "on": false,
@@ -346,7 +346,7 @@
     "kind": "random",
     "levels": 4,
     "levels_most": 10,
-    "finish_bonus": 0
+    "finish_bonus": 50
   },
   "cases": {
     "share": 0.4,
@@ -364,5 +364,5 @@
     "chasers_most": 3,
     "chaser_speed": 3.0
   },
-  "signature": "086bb2b124a66d4cbce6bf33b0a1e77ae35b68c7f3014fe83b20e7dbd00fb8c15ebd5e5939f91c22652270fec9d13710d5187d51e9ed314ec8db06bd541b430d"
+  "signature": "fb918cb97a55f3d64d63f6e0fdadcee8217d4f2dc8d57ae129f844e97352d03c2f806e08695ed0d446e24ce932c2f9bcbc8e0192129154c063471867acee890d"
 }

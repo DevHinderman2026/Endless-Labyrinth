@@ -1,6 +1,6 @@
 # Endless Labyrinth
 
-Endless Labyrinth is an audio game for Windows, made to be played by ear, by blind and sighted players alike. Everything you need to know is in what you hear: where the exit is, where an enemy is coming from, how close a time credit is, and how much time is left. Play with headphones: left, right, near, far and even behind you are all told by sound.
+Endless Labyrinth is an audio game for Windows, made to be played by ear, by blind and sighted players alike. Everything you need to know is in what you hear: where the exit is, where an enemy is coming from, how close a time credit is, and how much time is left. Play with headphones, which the game needs: from version 4.0.0 every sound that has a place is heard in true 3D, so left, right, near, far and even behind you are all told by sound, and in the walking modes the world turns with you.
 
 ## What's in the game
 
@@ -9,6 +9,7 @@ Endless Labyrinth is an audio game for Windows, made to be played by ear, by bli
 - **Driving Mode:** drive an open road by ear, dodging and shooting oncoming cars.
 - **Tower Mode:** climb a tower floor by floor against a rival.
 - **Island Mode:** fight across a chain of islands joined by the seabed.
+- **Find the Voice:** find a calling voice by ear, again and again, while a blind creature listens for your steps on broken glass.
 - **Chaos Mode:** every kind of level, mixed together.
 - **Events:** special challenges that are only open for a while, with their own Event High Scores.
 
@@ -16,7 +17,7 @@ Press H at any time for help, which explains every mode, every key and every sou
 
 ## Play on a phone, tablet, Chromebook or Mac
 
-Endless Labyrinth also plays in a web browser, with nothing to install: the same six modes and the same events, on an iPhone, an iPad, an Android phone or tablet, a Chromebook, a Mac, a Linux computer or a Windows computer. The web version also has a seventh mode of its own, **Ultimate Mode** (web version 2.0.0): a survival mode in one huge, regenerating world. From web version 5.0.0 the whole web game is heard in binaural 3D sound and its walking modes turn with you; this Windows game is in stereo, with north always ahead. The two versions are developed side by side, and compatibility between them, the events included, is maintained to the highest extent that both can allow. Play it at **[the game's website](https://devhinderman2026.github.io/endless-labyrinth-web-version/)**. On a phone or tablet it is played with touch gestures; on a computer, with the keyboard. Its scores are kept separately from the Windows version's.
+Endless Labyrinth also plays in a web browser, with nothing to install: the same seven modes and the same events, on an iPhone, an iPad, an Android phone or tablet, a Chromebook, a Mac, a Linux computer or a Windows computer. The web version also has an eighth mode of its own, **Ultimate Mode** (web version 2.0.0): a survival mode in one huge, regenerating world. Both versions are heard in 3D sound and turn with you in the walking modes: the web version since its version 5.0.0, this Windows game since version 4.0.0. The two versions are developed side by side, and compatibility between them, the events included, is maintained to the highest extent that both can allow. Play it at **[the game's website](https://devhinderman2026.github.io/endless-labyrinth-web-version/)**. On a phone or tablet it is played with touch gestures; on a computer, with the keyboard. Its scores are kept separately from the Windows version's.
 
 **Credits and version history:** see the [Credits and Version History](Credits%20and%20Version%20History) folder: [CHANGELOG.md](Credits%20and%20Version%20History/CHANGELOG.md) lists what each version of the game brought, and [CREDITS.md](Credits%20and%20Version%20History/CREDITS.md) credits every recorded sound.
 
@@ -43,7 +44,8 @@ The game plays offline. When it starts with an internet connection, it also:
 
 - checks this repository for events, so new events appear in your Events menu without a new download;
 - checks its sounds, and puts back any that are missing or damaged from the game's latest release, so a sounds folder you delete by accident comes back by itself;
-- checks for a newer version of the game, and tells you if there is one. It downloads an update only when you choose Check for Updates and press Y.
+- checks for a newer version of the game, and tells you if there is one. It downloads an update only when you choose Check for Updates and press Y;
+- downloads, once, the voice of the guide in Find the Voice (Kokoro's Heart, about 340 megabytes, from the kokoro-onnx project's release on GitHub), in the background, into `AppData\Local\Endless Labyrinth\voices`. Until it is there, the Windows voice speaks for her.
 
 ## Your saves
 

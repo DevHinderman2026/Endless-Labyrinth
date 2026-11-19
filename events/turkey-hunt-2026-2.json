@@ -4,7 +4,7 @@
   "enabled": true,
   "protected": false,
   "name": "Turkey Hunt",
-  "description": "Hunt down turrkies. You have 2 minutes. No ammo to collect. If a turkey hits you, you'll lose quite a bit of time. There are credits that are rare that increase your time. How many turrkies can you defeat for thanksgiving?",
+  "description": "Hunt down turkeys. You have 2 minutes. No ammo to collect. If a turkey hits you, you'll lose quite a bit of time. There are credits that are rare that increase your time. How many turkeys can you defeat for Thanksgiving?",
   "start": "2026-11-02T17:46:42Z",
   "end": "2026-11-28T17:46:42Z",
   "mission": "hunt",
@@ -88,13 +88,16 @@
   },
   "follow": {
     "speed": 1.2,
+    "faster_every_seconds": 15,
+    "faster_by": 0.1,
+    "top_speed": 3.0,
     "near_distance": 15,
     "lost_seconds": 8,
     "points_per_second": 2,
     "stops": true
   },
   "hunt": {
-    "time_bonus": 4,
+    "time_bonus": 0,
     "ammo_every_seconds": 0,
     "ammo_amount": 5
   },
@@ -328,5 +331,5 @@
     "silver": 0,
     "gold": 0
   },
-  "signature": "b01fdfa5b21ff6acceb2d87eab1f3feb5f474bd4eab3834c9507960118deae4737ec610618538966b0797e09ee1f503ccf026011e9f58ede317d0f55b50c1d04"
+  "signature": "3acb0361bb43ee500e42fe6a32c60191fe8fac3334191a85a2f1aaa9d8249b890a7ffb3c6f2d882fbdf7da0efd29d22efc84fe797cf6435bcc5bbf2a4a372208"
 }

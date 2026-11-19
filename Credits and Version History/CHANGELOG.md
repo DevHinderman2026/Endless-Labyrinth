@@ -4,13 +4,48 @@ The version history of Endless Labyrinth for Windows. From version 2.0.0 the gam
 
 Events are not listed here: new events reach your game through this repository, without a new version.
 
-## 3.1.0 (November 2026)
+## 4.0.0 (November 2026)
 
-The modes brought in line with the website, new things for events, the climb up the stairs, sounds that are easier to find, and running. Every event made before 3.1.0 plays as it always did.
+True 3D sound for headphones, turning in the walking modes, a new mode, Find the Voice, an arena crowd in every battle, the modes brought in line with the website, new things for events, and many fixes. It comes out alongside web version 6.0.0, so the two play alike and events stay the same in both. Version 3.1.0 was never released: everything it was to bring is part of 4.0.0, and is listed here. Every event made before 4.0.0 plays as it always did.
+
+### New: true 3D sound for headphones
+
+- Every sound that has a place is now heard in 3D, worked out for an average head: the same medium head model as Escape the Cave, 17.5 centimetres across, calculated, with no recording of anyone's ears. A sound from one side reaches your far ear a fraction of a millisecond later and duller, and a sound behind you is duller in both ears.
+- It is always on. **Headphones are needed**: speakers mix left and right together, and the game cannot be played without them.
+- Every sound that has a place is played from one exact point: a recording made in stereo is made into a single point in memory when the game loads it, so it sits precisely where its thing is. The sound files themselves are unchanged.
+- Speech, the background drones and shores, your own footsteps and the menus are not placed.
+
+### New: the walking modes turn with you
+
+- **Which modes:** Standard, Battle, Tower, Island, Find the Voice and the walking levels of Chaos. You turn where you stand, the whole world turns round you, the backgrounds included, and you walk the way you face.
+- **Left and Right turn you:** a press is a quick turn of 30 degrees, so three presses are a quarter turn and six turn you right round; hold one to keep turning, slowly at first and then faster, and let go to stop exactly there.
+- **Up walks the way you face**, and held down it runs. **Down takes one step straight back**, and held down it walks backwards.
+- **Ticks:** as you turn, a soft tick marks east, south and west, a higher tick marks north, and a quick turn that lands between two of them gives a softer click.
+- **Walls and edges:** walked straight into, a wall or the edge of the room stops you with its sound. Met at a slant, you slide along it in silence.
+- **Aiming:** in Battle, on a tower floor and on an island, a shot or a throw takes what is centred straight ahead of you or directly behind you. Enemies in Battle and on islands now come from any side.
+- **The report:** Enter's report ends with the way you are facing, such as Facing north-east.
+- **Which do not turn:** Driving, the roads in Chaos, the events and an elevator ride. There the four arrows work exactly as they always have, with north ahead.
+- **If you played before 4.0.0:** in the modes that turn, Left and Right no longer step you west and east, and there is no sidestep any more. To step to the side, turn a quarter, three presses of Left or Right, then press Up. If you never turn, Up and Down still go north and south as before. The help has a topic on this: General Turning, If You Played Before 4.0.0.
+
+### New: Find the Voice
+
+- **A new mode,** on the main menu between Island Mode and Chaos Mode. A woman's voice, the guide, calls to you from somewhere in a dark room: over here, this way, follow me, and hundreds more. Turn until her voice is centred, walk to her, and when you are within two steps of her a chime sounds; after half a second of quiet she calls again from somewhere new. Five finds complete a level, and on each level she stands farther away.
+- **A creature that listens.** A blind creature shares the room and hunts by sound. The floor is concrete with patches of broken glass: step on glass and it charges, growling, with a footstep for every step it runs, until about a second after you are back on concrete. It runs a little slower than you can run. If it catches you, you lose a life.
+- **Three lives and no clock.** Your score is the number of levels you complete, on a high score board of its own. The first level is always the witch's, and every level after it has a different event background.
+- **Her voice is Heart,** a natural American voice made by Kokoro, an open speech model, on your own computer. It is downloaded once, about 340 megabytes, in the background while you play, into the Endless Labyrinth folder in your local AppData folder, and the game never waits for it. Until it is ready, or if it cannot be downloaded or made, the Windows voice says her words and a soft shimmering sound marks where she stands. Her calls are always heard, even with Speech turned off for Braille. Heart is used for the guide alone: the Windows voice still says everything else.
+- **In Chaos Mode,** Find the Voice levels come about as often as islands. The guide must be found three or four times the first time in a run, and one more time each time after, at most eight. Then everything else goes silent and only an exit is heard, the battle exit's Morse signal, and the clock waits until you walk through it. These levels have three lives of their own for the whole run; losing all three ends the run.
+
+### New: the arena crowd in Battle Mode and Chaos's battles
+
+- Every battle now has an arena crowd: its murmur under the drums, a roar a moment after the explosion when you shoot an enemy down, and a groan, a gasp or a boo when an enemy reaches you.
+
+### Changed: running carries on
+
+- While you run you can press other keys, Space to shoot or throw, Enter for the report, T for the clock, and the run carries on; only another step, or letting go, ends it. In the modes that turn you can turn while you run: hold Left or Right as well and the run curves.
 
 ### Changed: the modes, now as on the website
 
-The website's version of the game has rebalanced its modes over the last week; 3.1.0 brings those rules to Windows. Windows keeps its own controls: north is always ahead, and nothing turns.
+The website's version of the game has rebalanced its modes over the last weeks; 4.0.0 brings those rules to Windows, along with the turning they were made for.
 
 - **Battle.** You start with eighty seconds (was sixty). During a wave the clock waits whenever nothing is after you, and runs again the moment the next enemy appears; during a break it runs as before. Enemies come in turns, never all at once: one at a time in waves 1 to 3, the next appearing only after you shoot the one before, two at once in waves 4 to 6, three in 7 to 9, and four, the most there will ever be, from wave 10. The first wave has six. Breaks start at fifty-two seconds and shrink a second a wave to twenty-five (were forty-five and thirty). Credits are worth fifteen, twenty-five or thirty-five seconds (were ten, fifteen and twenty), and each break holds only three to six of them.
 - **Standard.** You start with sixty seconds (was forty-five), and credits are worth twenty, thirty or forty seconds (were fifteen, twenty and thirty).
@@ -21,13 +56,24 @@ The website's version of the game has rebalanced its modes over the last week; 3
 ### New: in events
 
 - **Smash and grab with an exit.** An event can have an exit that you hear from the start, but that stays locked, and quieter, until every glass case in the room is smashed. Walk out through it to the next room, with a new number of cases.
-- **Chasers of their own.** The creatures a smashed case brings can have their own sound, such as a ghost, their own cost when they reach you, and whether the laser brings them down. One that reaches you then vanishes.
+- **Chasers of their own.** The creatures a smashed case brings can have their own sound, such as a ghost, and their own cost when they reach you. One that reaches you then vanishes.
 - **Rewards that vary.** A glass case or a treasure chest can give some rewards more often than others, such as shots from most cases and extra time from a few, and a different amount each time, such as 15 to 45 seconds.
-- Events that use any of these play in 3.1.0 and later. Older versions list them as playable on the website only.
+- **Swimming.** An event can now be deep water that you swim through: every step is a swimming stroke, as quiet as shallow water. Sonar Dive, Whale Song and The Sonar Maze swim.
+- Events that use any of these play in 4.0.0 and later. Older versions list them as playable on the website only.
+
+### Changed: events
+
+- **Pumpkin Hunt, Second Addition:** about half of the pumpkins are locked in glass cases and the rest lie on the floor; a smashed case brings three ghosts and holds shots for the laser, and a ghost's touch now costs ten seconds instead of ending the run.
+- **Turkey Hunt and The Angry Papa** are corrected: their descriptions read properly, a turkey no longer adds time, and Papa's cookies appear nearer to you.
+- **Dungeon Keys** plays the door unlocking when you take a key.
+- **Medals** are set afresh for The Expedition, Trapped in Darkness, Frozen Memories, Flooded Cellar, Wolf Woods and Lure, and The Expedition, Trapped in Darkness and Frozen Memories now give a bonus for finishing.
+- **Christmas Presents** runs through New Year's Day.
+- A Lure event never gives you the laser.
+- An event that has one of the newer settings but does not use it is no longer kept from versions 3.0.0 and 3.0.1.
 
 ### New: running
 
-- **Hold the Up arrow to run** north, about 280 steps a minute, and **hold the Down arrow to walk back** south, about 200 a minute, in Standard, Battle, Tower, Island, Chaos and the events. Letting go stops you, and so does a wall, the edge of the room, a new level and pausing. A quick press is still one step, Left and Right are still one step each, and nothing turns. Driving is unchanged, and so are a Braille notetaker's keys.
+- **Hold Up to run** the way you face, about 280 steps a minute, and **hold Down to walk back**, about 200 a minute, in Standard, Battle, Tower, Island, Find the Voice, Chaos and the events. In the events, where nothing turns, Up runs north and Down walks back south. Letting go stops you, and so does a wall, the edge of the room, a new level and pausing. A quick press is still one step. Driving is unchanged, and a Braille notetaker's held key still counts as one press.
 
 ### Changed: the climb up the stairs
 
@@ -41,6 +87,21 @@ The website's version of the game has rebalanced its modes over the last week; 3
 ### Fixed: lives missing from the report
 
 - In an event whose creatures all come from smashed glass cases, such as The Jewel Heist, Enter did not say how many lives you had left, though a guard's touch still cost one. Enter now says your lives whenever a creature's touch can cost one, from the start of the run.
+
+### Fixed: found in a full review of the game
+
+- **Quitting a mode no longer closes the game.** Pressing Escape and then Y to leave Standard, Battle, Driving, Tower, Island or Chaos closed the game with an error if you had not played an event since starting it. This was also in 3.0.0 and 3.0.1.
+- **The laser can always hit.** In an event that gives you the laser, every creature and every chaser can now be shot. Some could not, such as the ghosts of the first Pumpkin Hunt, Second Addition.
+- **Smash and grab with items on the floor.** An event can now lock only some of its items in glass cases; the rest lie on the floor, and you take them by stepping onto them.
+- **Events in stages.** A stage after the first now lays out its own items. When two stages each had a set number of items, the second could have none, and the run could not go on.
+- **Dance steps.** Holding an arrow a moment too long no longer gives a second answer that costs a life.
+- **Minefield and Mirror twin can always be finished.** The safe way through a minefield now ends just below the goal, so a step forward reaches it, and the twin in Mirror twin can now reach every calling spot.
+- **The end of a run names what you brought down.** It counts each kind of creature under its own name and points, such as 6 ghosts, and names the creature that caught you.
+- **The wait after a climb is quiet.** Nothing in the next room is heard, moves or can hurt you until it begins.
+- **The clock is announced correctly** after a trap or a thrown stone takes seconds off it.
+- **Enter says your lives** whenever you can lose one, a trap included, and your shots in the events where Space fires the laser. It says 1 second, not 1 seconds.
+- **Nothing is walled in.** When a new level brings new walls, anything lying where a wall now stands is moved somewhere you can reach.
+- **Chaos.** A tower floor's background keeps playing through the climb, as in Tower Mode.
 
 ### If you have 2.0.0 or newer
 

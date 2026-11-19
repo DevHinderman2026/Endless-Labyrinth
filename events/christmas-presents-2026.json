@@ -6,7 +6,7 @@
   "name": "Christmas Presents",
   "description": "Presents are hidden all around a warm hall with a crackling fire. You have two minutes. Follow the sleigh bells with the arrow keys and walk into a present to unwrap it; the next one appears straight away. Now and then a time credit appears: collect it for 10, 15 or 20 more seconds. Enter tells you your score, and T the time left.",
   "start": "2026-12-17T05:00:00Z",
-  "end": "2026-12-25T05:00:00Z",
+  "end": "2027-01-02T05:00:00Z",
   "mission": "collect",
   "time_limit_seconds": 120,
   "room": "hall",
@@ -328,5 +328,5 @@
     "silver": 0,
     "gold": 0
   },
-  "signature": "56582816fb468e1bd0e57c23847c9415b3cd18dda0a160ac83bb88661ac720a3a445bda546674fdeea8f33495437efcc091310111adebfb4bf0ae0d9d003320d"
+  "signature": "42257e55976b6e4bce1d5cc8763114e8496de530c9f35ec2b87aba190dd5f308119507c1cfb5560f425712f7cdd089ce4b0a58208e4358e3ef5f86334ae7840f"
 }

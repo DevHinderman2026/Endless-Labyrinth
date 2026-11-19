@@ -4,7 +4,7 @@
   "enabled": true,
   "protected": false,
   "name": "The Angry Papa",
-  "description": "Oh great. papa is not happy. you have to find the cookies that he baked. they're scattered all over the place. find them and maybe Papa will be happy with you. Listen for the sound of munching cookies. Walk towards it and the next one will appear. Pay attention.",
+  "description": "Oh great. Papa is not happy. You have to find the cookies that he baked. They're scattered all over the place. Find them and maybe Papa will be happy with you. Listen for the sound of munching cookies. Walk towards it and the next one will appear. Pay attention.",
   "start": "2026-11-25T05:00:00Z",
   "end": "2026-12-10T05:00:00Z",
   "mission": "collect",
@@ -28,7 +28,7 @@
     "total": 25,
     "total_max": 50,
     "hide_left": true,
-    "min_distance": 72,
+    "min_distance": 36,
     "max_distance": 0,
     "direction": "anywhere",
     "volume": 1.0,
@@ -63,6 +63,7 @@
     "dark_exit_chance": 0.0,
     "dark_exit_first_level": 2,
     "dark_exit_sound": "",
+    "dark_exit_volume": 1.0,
     "announce_levels": true
   },
   "survive": {
@@ -88,6 +89,9 @@
   },
   "follow": {
     "speed": 1.2,
+    "faster_every_seconds": 15,
+    "faster_by": 0.1,
+    "top_speed": 3.0,
     "near_distance": 15,
     "lost_seconds": 8,
     "points_per_second": 2,
@@ -328,5 +332,5 @@
     "silver": 0,
     "gold": 0
   },
-  "signature": "a9eb12ff7b5498068d0f2fc6319919478064b392d58220aa58ebe6536159b416bd2b6285278457f4736f7266491e5673f8aed0a64c7695e521a399266ecccb0c"
+  "signature": "0b8af6951fb0ada1b3486d8e4c3690deae7064ba1608770cb1aabebd4a1877c60df56ca0ddf2c69bd665d5b600cd5ed6e1d4cd7e69e444baeb29f80113c72e0c"
 }

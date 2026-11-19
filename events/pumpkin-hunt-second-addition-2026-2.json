@@ -4,10 +4,10 @@
   "enabled": true,
   "protected": false,
   "name": "Pumpkin Hunt, Second Addition",
-  "description": "Pumpkins are scattered all over A cathedral. however there are glass cases that you have to find in order to retrieve them. some could just be scattered on a floor. you'll never know. you have a time limit, 2 minutes. smash a glass case in the ghosts come for you. shoot them down with the laser. glass cases will give you some ammo as well. there will also be time credits you can collect from time to time.",
+  "description": "Pumpkins are scattered all over a cathedral. About half of them are locked in glass cases that you have to find and smash in order to retrieve them. The rest are just scattered on the floor: step onto them to take them. You never know which it will be. You have a time limit, 2 minutes. Smash a glass case and the ghosts come for you. If a ghost touches you, you lose 10 seconds. Shoot them down with the laser. You start with no ammo: every glass case gives you some, 3 shots more than the ghosts it lets out. There will also be time credits you can collect from time to time.",
   "start": "2026-11-17T16:08:15Z",
   "end": "2026-12-02T16:08:15Z",
-  "mission": "smash",
+  "mission": "collect",
   "time_limit_seconds": 120,
   "room": "cathedral",
   "room_size": 50,
@@ -304,14 +304,14 @@
   },
   "hazards": {
     "count": 0,
-    "name": "Ghosts",
+    "name": "ghost",
     "sound": "guardian",
     "behavior": "guard",
     "home": "corner",
     "speed": 1.5,
     "react_distance": 14,
-    "on_touch": "end_run",
-    "penalty": 15,
+    "on_touch": "lose_time",
+    "penalty": 10,
     "can_be_shot": true,
     "hits_to_down": 1,
     "points_for_down": 10,
@@ -335,7 +335,7 @@
     "gold": 0
   },
   "cases": {
-    "share": 0.1,
+    "share": 0.5,
     "extra": "shots",
     "random_kinds": [
       "seconds",
@@ -346,9 +346,9 @@
     "shots": 6,
     "points": 10,
     "noise": "chasers",
-    "chasers_fewest": 2,
-    "chasers_most": 4,
+    "chasers_fewest": 3,
+    "chasers_most": 3,
     "chaser_speed": 3.0
   },
-  "signature": "de7b9277cd9b350a861ba54c3ba0f5a9f78848b5c5b923fb75d86a2ceb9701510726d2ab5f845872a2827ba8632197fedbf5848b089965cd8b930524d9f58f0a"
+  "signature": "0bae2631e2a96539f6c2bbdbd199b185f3575c3097cb9231ab46da31a7515229e1870aabdac04601cfac92706dc663c109cc1e30a54333122e28b2b257d93a02"
 }
