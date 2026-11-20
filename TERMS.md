@@ -2,7 +2,7 @@
 
 > This is a copy of the Terms of Use on the Endless Labyrinth website, at https://devhinderman2026.github.io/endless-labyrinth-web-version/terms.html. It covers both the Windows version and the web version. The website has the current version; if the two ever differ, the website's copy applies. Where it mentions the footer, it means the footer of the website's pages, which has the contact address.
 
-Last updated: 6 November 2026.
+Last updated: 19 November 2026.
 
 These Terms of Use (the "Terms") constitute a legally binding agreement between you and Russell Hinderman, trading as DevHinderman2026 (the "Developer"), governing your access to and use of Endless Labyrinth in each of its forms: this website, the game that it plays, and the Windows version of the game. Please read the Terms carefully before using any of them. A section of common questions, written in plain language, follows the numbered sections; in the event of any inconsistency, the numbered sections prevail.
 
@@ -283,7 +283,7 @@ Yes, with anyone, anywhere. The share buttons in the footer do exactly that.
 
 ### Can I use my screen reader, Braille display or other assistive technology?
 
-Always. Section 21 says so in as many words. The game itself speaks with your device's own voice, so it asks you to turn your screen reader off while you play and back on when you leave; that is how the game works, not a rule against your screen reader.
+Always. Section 21 says so in as many words. The game speaks for itself, with your device's own voice in the menus and with its own recorded voice during a run, so it asks you to turn your screen reader off while you play and back on when you leave; that is how the game works, not a rule against your screen reader.
 
 ### Can kids play?
 

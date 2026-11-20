@@ -32,12 +32,14 @@ True 3D sound for headphones, turning in the walking modes, a new mode, Find the
 - **A new mode,** on the main menu between Island Mode and Chaos Mode. A woman's voice, the guide, calls to you from somewhere in a dark room: over here, this way, follow me, and hundreds more. Turn until her voice is centred, walk to her, and when you are within two steps of her a chime sounds; after half a second of quiet she calls again from somewhere new. Five finds complete a level, and on each level she stands farther away.
 - **A creature that listens.** A blind creature shares the room and hunts by sound. The floor is concrete with patches of broken glass: step on glass and it charges, growling, with a footstep for every step it runs, until about a second after you are back on concrete. It runs a little slower than you can run. If it catches you, you lose a life.
 - **Three lives and no clock.** Your score is the number of levels you complete, on a high score board of its own. The first level is always the witch's, and every level after it has a different event background.
-- **Her voice is Heart,** a natural American voice made by Kokoro, an open speech model, on your own computer. It is downloaded once, about 340 megabytes, in the background while you play, into the Endless Labyrinth folder in your local AppData folder, and the game never waits for it. Until it is ready, or if it cannot be downloaded or made, the Windows voice says her words and a soft shimmering sound marks where she stands. Her calls are always heard, even with Speech turned off for Braille. Heart is used for the guide alone: the Windows voice still says everything else.
+- **Her voice is Heart,** a natural American voice made by Kokoro, an open speech model, and recorded for the game: every one of her calls comes with the game's sounds, the same recordings as the website's, so there is nothing to download and nothing to wait for, and her first call comes as soon as the level has been said. With Speech turned off for Braille, no voice is heard for her: a soft shimmering sound plays where she stands in place of her voice. Heart is used for the guide alone: the Windows voice still says everything else.
 - **In Chaos Mode,** Find the Voice levels come about as often as islands. The guide must be found three or four times the first time in a run, and one more time each time after, at most eight. Then everything else goes silent and only an exit is heard, the battle exit's Morse signal, and the clock waits until you walk through it. These levels have three lives of their own for the whole run; losing all three ends the run.
 
 ### New: the arena crowd in Battle Mode and Chaos's battles
 
-- Every battle now has an arena crowd: its murmur under the drums, a roar a moment after the explosion when you shoot an enemy down, and a groan, a gasp or a boo when an enemy reaches you.
+- Every battle now has an arena crowd: its murmur under the drums, heard all through the fight everywhere in the arena, and a roar a moment after the explosion when you shoot an enemy down. When an enemy reaches you the battle is over, and the crowd says nothing.
+- **When a wave begins, the crowd goes wild.** With the war horn after the five, four, three, two, one, a great roar comes from all round the arena, as loud as a kill's, and the crowd's murmur swells for a few seconds and settles back.
+- **The cartridge and credit beacons are twice as loud** in Battle Mode and in Chaos's battles, held to full loudness up close, so you hear them over the crowd.
 
 ### Changed: running carries on
 
@@ -66,6 +68,8 @@ The website's version of the game has rebalanced its modes over the last weeks; 
 - **Pumpkin Hunt, Second Addition:** about half of the pumpkins are locked in glass cases and the rest lie on the floor; a smashed case brings three ghosts and holds shots for the laser, and a ghost's touch now costs ten seconds instead of ending the run.
 - **Turkey Hunt and The Angry Papa** are corrected: their descriptions read properly, a turkey no longer adds time, and Papa's cookies appear nearer to you.
 - **Dungeon Keys** plays the door unlocking when you take a key.
+- **Call of Fate:** "Ring three times" and the like are now said just before the climb up to the next level ends, and the level begins right then, instead of as the climb begins.
+- **Count the Chimes:** after a miscount, the next count waits until you have heard what the number was, so its chimes no longer ring over the voice.
 - **Medals** are set afresh for The Expedition, Trapped in Darkness, Frozen Memories, Flooded Cellar, Wolf Woods and Lure, and The Expedition, Trapped in Darkness and Frozen Memories now give a bonus for finishing.
 - **Christmas Presents** runs through New Year's Day.
 - A Lure event never gives you the laser.

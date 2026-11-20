@@ -16,7 +16,7 @@ On the Website, your play stays in your browser. Your high scores, statistics, s
 
 ## 3. Transmissions during play and backups
 
-The Web Game sends nothing about you during play. The only requests it makes are ordinary requests to GitHub, to read the list of Events and the Event files, and to the Website itself, to learn the current time; and, to download the Game's voices once, requests to Hugging Face, which hosts the Kokoro speech model and its voices, and to jsDelivr, which hosts ONNX Runtime Web, the software that runs that model in your browser. The voices are made on your own device: nothing you do, and nothing the Game says, is sent to either service. In common with any download, Hugging Face and jsDelivr receive the ordinary technical details of those requests, such as your IP address, and process them under their own privacy policies. A [backup file](https://devhinderman2026.github.io/endless-labyrinth-web-version/backups.html) of your Save Data is written only to the location that you choose; the Website does not receive it.
+The Web Game sends nothing about you during play. The only requests it makes are ordinary requests to GitHub, to read the list of Events and the Event files, and to the Website itself, to learn the current time. The Game's voices are recordings that come with its sounds, from the Website itself: no other service is contacted for them, and nothing the Game says is sent anywhere. A [backup file](https://devhinderman2026.github.io/endless-labyrinth-web-version/backups.html) of your Save Data is written only to the location that you choose; the Website does not receive it.
 
 ## 4. GitHub, the hosting provider
 
@@ -39,8 +39,7 @@ When the Program has an internet connection, it communicates only with the follo
 - (a) GitHub, to read the list of Events and the Event files, and to obtain the current time from GitHub's response, so that Events begin and end at the correct moment;
 - (b) GitHub, to determine whether a newer version of the game has been released, so that the main menu may inform you of it; nothing is downloaded by that check;
 - (c) GitHub, to download the Program's latest release archive, in either of two circumstances only: when you choose Check for Updates and confirm the update by pressing Y, in which case the archive is used to install the update and is then deleted (see section 6.3); or only if a sound in its sounds folder is missing or damaged, in which case the sound is restored from the archive and the archive is then deleted;
-- (d) NV Access, the developer of the NVDA screen reader, to download NVDA's controller library, only if that library is missing from the Program's folder, for the purpose of Braille display support;
-- (e) GitHub, to download, once, the files of the Kokoro speech model that gives the guide in Find the Voice her voice, published there by the kokoro-onnx project, which are kept in the AppData\Local\Endless Labyrinth\voices folder on your computer. The voice is made on your computer: nothing is sent.
+- (d) NV Access, the developer of the NVDA screen reader, to download NVDA's controller library, only if that library is missing from the Program's folder, for the purpose of Braille display support.
 
 In common with any download, GitHub and NV Access receive the ordinary technical details of those requests, such as your IP address, and process them under their own privacy policies; GitHub's is linked in section 4.
 

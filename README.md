@@ -44,8 +44,7 @@ The game plays offline. When it starts with an internet connection, it also:
 
 - checks this repository for events, so new events appear in your Events menu without a new download;
 - checks its sounds, and puts back any that are missing or damaged from the game's latest release, so a sounds folder you delete by accident comes back by itself;
-- checks for a newer version of the game, and tells you if there is one. It downloads an update only when you choose Check for Updates and press Y;
-- downloads, once, the voice of the guide in Find the Voice (Kokoro's Heart, about 340 megabytes, from the kokoro-onnx project's release on GitHub), in the background, into `AppData\Local\Endless Labyrinth\voices`. Until it is there, the Windows voice speaks for her.
+- checks for a newer version of the game, and tells you if there is one. It downloads an update only when you choose Check for Updates and press Y.
 
 ## Your saves
 
