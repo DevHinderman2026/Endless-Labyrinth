@@ -50,7 +50,7 @@ True 3D sound for headphones, turning in the walking modes, a new mode, Find the
 
 ### Changed: corners in the labyrinths
 
-- **In Standard Mode and Chaos Mode's labyrinths,** where two pieces of wall touch only at their corners, with floor beyond, you now fit through the gap between them when you face it at a slant. An opening you hear straight ahead is one you can walk through. The same on the website, from version 6.2.0.
+- **In Standard Mode and Chaos Mode's labyrinths,** where two pieces of wall touch only at their corners, with floor beyond, you now fit through the gap between them when you face it at a slant. An opening you hear straight ahead is one you can walk through. The same on the website, from version 6.3.0.
 
 ### Changed: running carries on
 

@@ -522,6 +522,14 @@ The Abyss exists only in the web version (from web 6.2.0), so these recordings a
 - **Thunder Strike** by Universfield. One of the four thunderclaps of a lightning strike in The Abyss (web 6.2.0): its loud moment, four and a half seconds, cut from the recording and set to full level. Game file: ab_thunder_3.ogg (in the web version's abyss pack). [Original on Pixabay](https://pixabay.com/sound-effects/nature-thunder-strike-124463/)
 - **big thunder clap** by freesound_community. One of the four thunderclaps of a lightning strike in The Abyss (web 6.2.0): its loud moment, four and a half seconds, cut from the recording and set to full level. Game file: ab_thunder_4.ogg (in the web version's abyss pack). [Original on Pixabay](https://pixabay.com/sound-effects/nature-big-thunder-clap-99753/)
 
+### Grass footsteps, web version only
+
+Ultimate Mode's worlds, and the world stages of Chaos Mode, exist only in the web version, so these recordings are not in the Windows game. Each is one footstep on grass, walked in a safe zone out of doors, such as one with crickets, a forest or birdsong (from web 6.3.0). They are kept with the web version's sound packs; the originals are kept with the others.
+
+- **Walk On Grass 1** by joentnt. One step on grass in an outdoor safe zone (web 6.3.0), its silence trimmed and set to the loudness of the game's other footsteps. Game file: step_grass_1.ogg (in the web version's outdoor pack). [Original on Pixabay](https://pixabay.com/sound-effects/film-special-effects-walk-on-grass-1-291984/)
+- **Walk On Grass 2** by joentnt. One step on grass in an outdoor safe zone (web 6.3.0), its silence trimmed and set to the loudness of the game's other footsteps. Game file: step_grass_2.ogg (in the web version's outdoor pack). [Original on Pixabay](https://pixabay.com/sound-effects/film-special-effects-walk-on-grass-2-291985/)
+- **Walk On Grass 3** by joentnt. One step on grass in an outdoor safe zone (web 6.3.0), its silence trimmed and set to the loudness of the game's other footsteps. Game file: step_grass_3.ogg (in the web version's outdoor pack). [Original on Pixabay](https://pixabay.com/sound-effects/film-special-effects-walk-on-grass-3-291986/)
+
 ### Downloaded but not used
 
 These recordings were downloaded for the game but are not played in it. They are credited all the same, because their files are kept with the game.
