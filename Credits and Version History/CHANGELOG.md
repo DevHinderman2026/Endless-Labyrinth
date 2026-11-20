@@ -30,16 +30,27 @@ True 3D sound for headphones, turning in the walking modes, a new mode, Find the
 ### New: Find the Voice
 
 - **A new mode,** on the main menu between Island Mode and Chaos Mode. A woman's voice, the guide, calls to you from somewhere in a dark room: over here, this way, follow me, and hundreds more. Turn until her voice is centred, walk to her, and when you are within two steps of her a chime sounds; after half a second of quiet she calls again from somewhere new. Five finds complete a level, and on each level she stands farther away.
-- **A creature that listens.** A blind creature shares the room and hunts by sound. The floor is concrete with patches of broken glass: step on glass and it charges, growling, with a footstep for every step it runs, until about a second after you are back on concrete. It runs a little slower than you can run. If it catches you, you lose a life.
+- **A creature that listens.** A blind creature shares the room and hunts by sound. The floor is concrete with patches of broken glass: step on glass and it charges, growling, with a footstep for every step it runs, for as long as you are on glass and 3 seconds after you are back on concrete; every charge lasts at least 5 seconds, even after a single step on glass. It runs a little slower than you can run. If it catches you, you lose a life.
 - **Three lives and no clock.** Your score is the number of levels you complete, on a high score board of its own. The first level is always the witch's, and every level after it has a different event background.
 - **Her voice is Heart,** a natural American voice made by Kokoro, an open speech model, and recorded for the game: every one of her calls comes with the game's sounds, the same recordings as the website's, so there is nothing to download and nothing to wait for, and her first call comes as soon as the level has been said. With Speech turned off for Braille, no voice is heard for her: a soft shimmering sound plays where she stands in place of her voice. Heart is used for the guide alone: the Windows voice still says everything else.
-- **In Chaos Mode,** Find the Voice levels come about as often as islands. The guide must be found three or four times the first time in a run, and one more time each time after, at most eight. Then everything else goes silent and only an exit is heard, the battle exit's Morse signal, and the clock waits until you walk through it. These levels have three lives of their own for the whole run; losing all three ends the run.
+- **In Chaos Mode,** Find the Voice levels come about as often as islands. The guide must be found three or four times the first time in a run, and one more time each time after, at most eight. Then everything else goes silent and only an exit is heard, the battle exit's Morse signal, and the clock waits until you walk through it. Being caught costs 25 of the run's health (see below).
 
 ### New: the arena crowd in Battle Mode and Chaos's battles
 
 - Every battle now has an arena crowd: its murmur under the drums, heard all through the fight everywhere in the arena, and a roar a moment after the explosion when you shoot an enemy down. When an enemy reaches you the battle is over, and the crowd says nothing.
 - **When a wave begins, the crowd goes wild.** With the war horn after the five, four, three, two, one, a great roar comes from all round the arena, as loud as a kill's, and the crowd's murmur swells for a few seconds and settles back.
 - **The cartridge and credit beacons are twice as loud** in Battle Mode and in Chaos's battles, held to full loudness up close, so you hear them over the crowd.
+
+### New: one health bar for all of Chaos Mode
+
+- **A Chaos run now has one health bar,** as on the website. It starts at 100, and every finished level gives 10 more, with no cap. Every Chaos report states your health.
+- **What costs health:** an enemy reaching you in a battle or on an island costs 25; the enemy is gone and counted, and in battles the crowd reacts. An island's guardian costs 25 while you have shots, but takes all your health if you are out of them. Out of air on the seabed, you lose 10 a second. A crash on a Chaos road costs 20 health and its 30 seconds. Being caught in Find the Voice costs 25.
+- **Getting it back:** a tower's potion brings you back to 100 if you are below it, and leaves you alone above it.
+- **The voice still warns you:** at 35 or below it says "Health low", and how much is left. When health runs out, the run ends.
+
+### Changed: corners in the labyrinths
+
+- **In Standard Mode and Chaos Mode's labyrinths,** where two pieces of wall touch only at their corners, with floor beyond, you now fit through the gap between them when you face it at a slant. An opening you hear straight ahead is one you can walk through. The same on the website, from version 6.2.0.
 
 ### Changed: running carries on
 
