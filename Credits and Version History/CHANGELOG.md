@@ -48,6 +48,18 @@ True 3D sound for headphones, turning in the walking modes, a new mode, Find the
 - **Getting it back:** a tower's potion brings you back to 100 if you are below it, and leaves you alone above it.
 - **The voice still warns you:** at 35 or below it says "Health low", and how much is left. When health runs out, the run ends.
 
+### Changed: the sound of breaking glass
+
+- **Smashing a glass case in an event now sounds like glass breaking.** The recording before sounded more like something being crushed. It is replaced by Broken Glass Impact by Universfield, and the old one is credited under Downloaded but not used. The same on the website, from version 6.3.3. (The glass had been going quietly. Now it breaks like it means it.)
+
+### Fixed: chimes heard from one point
+
+- **A chime, a bell, a ding, a gong or a toll is heard from one point wherever it plays.** An event's start and end bells and tolls were still spread from ear to ear (its pickups and the elevator already played from one point). Backgrounds are never made one point, since they turn with you. The same on the website, from version 6.3.2. (A doorbell no longer rings in both ears at once, like a doorbell with surround sound.)
+
+### Changed: every background turns with you
+
+- **In every mode that turns with you, the background turns too.** Four backgrounds were recorded with both their sides the same (the cave wind, the two water flows and the wind and waves), so there was nothing to turn and they sounded the same whichever way you faced; three of them are labyrinth backgrounds. Each is now given a second side of its own as it loads (the same recording, a little over a third of the way on), so it turns like the rest. The same on the website, from version 6.3.1. (The cave wind had been facing every direction at once. It has picked one.)
+
 ### Changed: corners in the labyrinths
 
 - **In Standard Mode and Chaos Mode's labyrinths,** where two pieces of wall touch only at their corners, with floor beyond, you now fit through the gap between them when you face it at a slant. An opening you hear straight ahead is one you can walk through. The same on the website, from version 6.3.0.
