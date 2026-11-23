@@ -1,10 +1,10 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "dungeon-keys-2026",
   "enabled": true,
   "protected": false,
   "name": "Dungeon Keys",
-  "description": "You are locked in the dungeon. In each cell a bunch of keys jingles somewhere. Find them, and the door unlocks: walk out through the magic portal to the next cell. Each cell has one more guard dragging his chains; if one catches you, you are back in irons. Three lives; there is no clock. Walk with the arrow keys; Enter tells you the cell and whether you have the key.",
+  "description": "You are locked in the dungeon. In each cell a bunch of keys jingles somewhere. Find them, and the door unlocks: walk out through the magic portal to the next cell. Each cell has one more guard. The guards stand still, dragging their chains, and a guard is louder when you are in front of it. Step close in front of one and it growls, then charges you for a few seconds, so get out of its way. Standing still, or passing beside or behind a guard, is safe. If one catches you, you are back in irons. Three lives; there is no clock. Walk with the arrow keys; Enter tells you the cell and whether you have the key.",
   "start": "2026-11-17T03:06:24Z",
   "end": "2026-12-04T03:06:24Z",
   "mission": "keys",
@@ -300,9 +300,9 @@
     "count": 1,
     "name": "guard",
     "sound": "evt_chains.ogg",
-    "behavior": "wander",
+    "behavior": "listen",
     "home": "anywhere",
-    "speed": 1.2,
+    "speed": 0.7,
     "react_distance": 14,
     "on_touch": "end_run",
     "penalty": 15,
@@ -311,7 +311,18 @@
     "points_for_down": 10,
     "respawn_seconds": 0,
     "volume": 0.5,
-    "lives": 3
+    "lives": 3,
+    "rest_sound": "evt_chains.ogg",
+    "growl_sound": "",
+    "notice_steps": 3,
+    "hearing": 30,
+    "growl_seconds": 1.5,
+    "charge_seconds": 6,
+    "flee_distance": 18,
+    "keep_distance": 24,
+    "throw_every_seconds": 5.0,
+    "windup_seconds": 1.2,
+    "windup_sound": ""
   },
   "weapon": {
     "enabled": false,
@@ -328,5 +339,5 @@
     "silver": 60,
     "gold": 100
   },
-  "signature": "863763528432f2399526a6a61c1adc559973e1fa76870418f355aa6060163ac479507df1cd0227770b211555283c2340a240744bba0dff6593c183fcf5313005"
+  "signature": "adde224ce5825b529a372b6337709fc70a02547674002e75fc55dcedc1f3fa540f4c27b1a5acb6761260c1bf025ee66cbaa4a41e8d63943630f6d761f8e2e709"
 }
