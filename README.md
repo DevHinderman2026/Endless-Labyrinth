@@ -1,6 +1,6 @@
 # Endless Labyrinth
 
-Endless Labyrinth is an audio game for Windows, made to be played by ear, by blind and sighted players alike. Everything you need to know is in what you hear: where the exit is, where an enemy is coming from, how close a time credit is, and how much time is left. Play with headphones, which the game needs: from version 4.0.0 every sound that has a place is heard in true 3D, so left, right, near, far and even behind you are all told by sound, and in the walking modes the world turns with you.
+Endless Labyrinth is an audio game for Windows, made to be played by ear, by blind and sighted players alike. Everything you need to know is in what you hear: where the exit is, where an enemy is coming from, how close a time credit is, and how much time is left. Play with headphones: left and right, near and far, and even what is behind you are all told by sound.
 
 ## What's in the game
 
@@ -9,7 +9,6 @@ Endless Labyrinth is an audio game for Windows, made to be played by ear, by bli
 - **Driving Mode:** drive an open road by ear, dodging and shooting oncoming cars.
 - **Tower Mode:** climb a tower floor by floor against a rival.
 - **Island Mode:** fight across a chain of islands joined by the seabed.
-- **Find the Voice:** find a calling voice by ear, again and again, while a blind creature listens for your steps on broken glass.
 - **Chaos Mode:** every kind of level, mixed together.
 - **Events:** special challenges that are only open for a while, with their own Event High Scores.
 
@@ -17,7 +16,7 @@ Press H at any time for help, which explains every mode, every key and every sou
 
 ## Play on a phone, tablet, Chromebook or Mac
 
-Endless Labyrinth also plays in a web browser, with nothing to install: the same seven modes and the same events, on an iPhone, an iPad, an Android phone or tablet, a Chromebook, a Mac, a Linux computer or a Windows computer. The web version also has an eighth mode of its own, **Ultimate Mode** (web version 2.0.0): a survival mode in one huge, regenerating world. Both versions are heard in 3D sound and turn with you in the walking modes: the web version since its version 5.0.0, this Windows game since version 4.0.0. The two versions are developed side by side, and compatibility between them, the events included, is maintained to the highest extent that both can allow. Play it at **[the game's website](https://devhinderman2026.github.io/endless-labyrinth-web-version/)**. On a phone or tablet it is played with touch gestures; on a computer, with the keyboard. Its scores are kept separately from the Windows version's.
+Endless Labyrinth also plays in a web browser, with nothing to install: every mode of this game and the same events, on an iPhone, an iPad, an Android phone or tablet, a Chromebook, a Mac, a Linux computer or a Windows computer. The web version also has modes of its own: **Ultimate Mode**, a survival mode in one huge, regenerating world; **Find the Voice**, where you find a calling voice by ear while a blind creature listens for your steps on broken glass; and **The Abyss**. It is heard in binaural 3D sound and turns with you in the walking modes. The two versions are developed side by side, and compatibility between them, the events included, is maintained to the highest extent that both can allow. Play it at **[the game's website](https://devhinderman2026.github.io/endless-labyrinth-web-version/)**. On a phone or tablet it is played with touch gestures; on a computer, with the keyboard. Its scores are kept separately from the Windows version's.
 
 **Credits and version history:** see the [Credits and Version History](Credits%20and%20Version%20History) folder: [CHANGELOG.md](Credits%20and%20Version%20History/CHANGELOG.md) lists what each version of the game brought, and [CREDITS.md](Credits%20and%20Version%20History/CREDITS.md) credits every recorded sound.
 
